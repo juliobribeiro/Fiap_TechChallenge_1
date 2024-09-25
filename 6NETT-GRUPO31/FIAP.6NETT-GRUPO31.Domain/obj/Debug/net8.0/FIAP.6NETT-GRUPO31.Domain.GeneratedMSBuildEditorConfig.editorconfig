@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FIAP._6NETT_GRUPO31.Domain
-build_property.ProjectDir = E:\FIAP\Fiap_TechChallenge_1\6NETT-GRUPO31\FIAP.6NETT-GRUPO31.Domain\
+build_property.ProjectDir = E:\FIAP\Fiap_TechChallenge_1_b\6NETT-GRUPO31\FIAP.6NETT-GRUPO31.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

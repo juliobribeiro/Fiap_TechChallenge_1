@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("FIAP.6NETT-GRUPO31.Application.Tests"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+567a0010eb1ef10e621c6557c75aeeb925ef314e"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("FIAP.6NETT-GRUPO31.Application.Tests"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("FIAP.6NETT-GRUPO31.Application.Tests"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")> 
