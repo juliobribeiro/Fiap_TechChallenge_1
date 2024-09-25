@@ -1,0 +1,6 @@
+@FIAP._6NETT_GRUPO31.Service_HostAddress = http://localhost:5266
+
+GET {{FIAP._6NETT_GRUPO31.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

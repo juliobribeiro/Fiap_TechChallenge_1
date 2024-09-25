@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FIAP.6NETT-GRUPO31.Service.props" />
+</Project>
