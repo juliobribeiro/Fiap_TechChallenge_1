@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj|solutionrelative:fiap.6nett-grupo31.application\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Teste.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Teste.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Teste.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Teste.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Teste.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:50:20.545Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
