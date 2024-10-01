@@ -10,4 +10,9 @@ namespace FIAP._6NETT_GRUPO31.Application
     {
         public int teste { get; set; }
     }
+    internal class Teste1
+    {
+        public int teste { get; set; }
+    }
+
 }
