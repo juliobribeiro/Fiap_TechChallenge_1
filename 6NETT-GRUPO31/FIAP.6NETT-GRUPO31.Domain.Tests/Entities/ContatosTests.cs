@@ -10,7 +10,7 @@ namespace FIAP._6NETT_GRUPO31.Domain.Tests.Entities
     public class ContatosTests
     {
         [Fact]
-        public void Contatos_Constructor_ShouldInitializePropertiesCorrectly()
+        public void DevoCriarClasseContatosCom_IdContato_Nome_Email_Telefone_DDDRegiao_Corretamente()
         {
             // Arrange
             int idContato = 1;
