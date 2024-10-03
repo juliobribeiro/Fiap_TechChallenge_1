@@ -28,7 +28,7 @@ namespace FIAP._6NETT_GRUPO31.Domain.Tests.Entities
             Assert.Equal(nome, contato.Nome);
             Assert.Equal(email, contato.Email);
             Assert.Equal(telefone, contato.Telefone);
-            Assert.Equal(dDDRegiao, contato.IdDDDRegiao);
+            Assert.Equal(dDDRegiao, contato.DDDRegiao);
         }
 
     }

@@ -14,6 +14,13 @@ namespace FIAP._6NETT_GRUPO31.Domain.Entities
         public string Cidade { get; set; }
         public string UF { get; set; }
 
+        public IEnumerable<Contatos> Contatos { get; set; } 
+
+        public DDDRegiao()
+        {
+                
+        }
+
         public DDDRegiao(int idDDDRegiao, string ddd, string regiao, string cidade, string uF)
         {
             

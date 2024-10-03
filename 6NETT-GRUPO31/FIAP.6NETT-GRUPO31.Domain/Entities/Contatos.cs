@@ -12,15 +12,21 @@ namespace FIAP._6NETT_GRUPO31.Domain.Entities
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Telefone { get; set; }
-        public DDDRegiao IdDDDRegiao { get; set; }
+        public int DDDRegiaoId { get; set; }
+        public DDDRegiao DDDRegiao { get; set; }
 
-        public Contatos(int idContato, string nome, string email, string telefone, DDDRegiao idDDDRegiao)
+        public Contatos()
+        {
+                
+        }
+
+        public Contatos(int idContato, string nome, string email, string telefone, DDDRegiao dDDRegiao)
         {
             IdContato = idContato;
             Nome = nome;
             Email = email;
             Telefone = telefone;
-            IdDDDRegiao = idDDDRegiao;
+            DDDRegiao = dDDRegiao;
         }
     }
 }
