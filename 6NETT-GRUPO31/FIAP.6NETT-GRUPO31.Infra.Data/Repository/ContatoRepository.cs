@@ -24,7 +24,7 @@ namespace FIAP._6NETT_GRUPO31.Infra.Data.Repository
              return await _context.SaveChangesAsync() > 0;            
         }
 
-        public async Task AtualizaContato(int idContato, Contatos contato)
+        public async Task AtualizaContato(Contatos contato)
         {
             _context.Contatos.Update(contato);
             await _context.SaveChangesAsync();         

@@ -13,6 +13,6 @@ namespace FIAP._6NETT_GRUPO31.Domain.Entities
 
         Task<IEnumerable<Contatos>> ConsultaContatos(string ddd);
 
-        Task AtualizaContato(int idContato, Contatos contato);
+        Task AtualizaContato(Contatos contato);
     }
 }

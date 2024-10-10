@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FIAP._6NETT_GRUPO31.Application.Interfaces
 {
-    internal interface IContatoApplication
+    public interface IContatoApplication
     {
     }
 }
