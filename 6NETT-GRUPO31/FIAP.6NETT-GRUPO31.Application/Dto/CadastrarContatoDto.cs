@@ -9,6 +9,8 @@ namespace FIAP._6NETT_GRUPO31.Application.Dto
 {
     public class CadastrarContatoDto
     {
+        public int IdContato { get; set; }
+
         [Required(ErrorMessage = "O campo nome é obrigatório")]
         public string Nome { get; set; }
 

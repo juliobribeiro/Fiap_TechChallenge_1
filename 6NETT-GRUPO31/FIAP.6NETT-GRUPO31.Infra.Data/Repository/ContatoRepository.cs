@@ -32,7 +32,7 @@ namespace FIAP._6NETT_GRUPO31.Infra.Data.Repository
 
         public async Task<IEnumerable<Contatos>> ConsultaContatos(string ddd)
         {
-            if (string.IsNullOrWhiteSpace(ddd)) return _context.Contatos;
+            if (string.IsNullOrWhiteSpace(ddd)) return _context.Contatos.Include("DDDRegiao");
             else return _context.Contatos.Where(x => x.DDDRegiao.Ddd == ddd).Include("DDDRegiao");
         }
     }
