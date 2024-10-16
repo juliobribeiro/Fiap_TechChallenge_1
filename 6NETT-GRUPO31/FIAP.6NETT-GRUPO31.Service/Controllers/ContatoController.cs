@@ -52,7 +52,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
             {
                 if (!ModelState.IsValid) return CustomResponse(ModelState);
                 
-                return Ok();
+                return CustomResponse();
             }
             catch (Exception ex)
             {
@@ -70,7 +70,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
             try
             {
 
-                return Ok();
+                return CustomResponse();
             }
             catch (Exception ex)
             {
