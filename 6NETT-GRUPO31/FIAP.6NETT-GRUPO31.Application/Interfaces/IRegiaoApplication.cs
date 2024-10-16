@@ -10,5 +10,7 @@ namespace FIAP._6NETT_GRUPO31.Application.Interfaces
     public interface IRegiaoApplication
     {
         Task<DDDRegiaoDto> GetRegiaoPorDDD(string ddd);
+
+        Task<List<DDDRegiaoDto>> GetRegioes();
     }
 }

@@ -50,8 +50,6 @@ namespace FIAP._6NETT_GRUPO31.Application.Services
                     Nome = dto.Nome,
                     Email = dto.Email,
                     Telefone = dto.Telefone
-
-
                 };
                 await _contatoRepository.AtualizaContato(entidadeContato);
 

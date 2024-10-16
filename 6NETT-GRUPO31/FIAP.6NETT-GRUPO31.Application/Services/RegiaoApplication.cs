@@ -35,5 +35,27 @@ namespace FIAP._6NETT_GRUPO31.Application.Services
                 Regiao = regiao.Regiao                
             };
         }
+
+        public async Task<List<DDDRegiaoDto>> GetRegioes()
+        {
+            var regioes = await _regiaoRepository.GetRegioes();
+
+            var ret = new List<DDDRegiaoDto>();
+
+            foreach (var regiao in regioes)
+            {
+                ret.Add(new DDDRegiaoDto()
+                {
+                    IdDDDRegiao = regiao.IdDDDRegiao,
+                    Cidade = regiao.Cidade,
+                    Ddd = regiao.Ddd,
+                    UF = regiao.UF,
+                    Regiao = regiao.Regiao
+                });
+            }
+
+            return ret;
+
+        }
     }
 }

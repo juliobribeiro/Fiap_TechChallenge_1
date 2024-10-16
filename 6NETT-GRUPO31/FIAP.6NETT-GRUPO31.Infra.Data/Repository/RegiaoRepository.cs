@@ -17,6 +17,12 @@ namespace FIAP._6NETT_GRUPO31.Infra.Data.Repository
         {
             _context = context;
         }
+
+        public async Task<List<DDDRegiao>> GetRegioes()
+        {
+            return await _context.DDDRegiao.ToListAsync();
+        }
+
         public async Task<DDDRegiao> GetRegiaoPorDDD(string ddd)
         {
             return await _context.DDDRegiao.FirstOrDefaultAsync(x => x.Ddd.Equals(ddd));

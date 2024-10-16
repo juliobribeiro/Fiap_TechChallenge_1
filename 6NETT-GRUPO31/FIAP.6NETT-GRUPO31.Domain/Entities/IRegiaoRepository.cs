@@ -10,5 +10,7 @@ namespace FIAP._6NETT_GRUPO31.Domain.Entities
     {
         public Task<DDDRegiao> GetRegiaoPorDDD(string ddd);
 
+        public Task<List<DDDRegiao>> GetRegioes();
+
     }
 }
