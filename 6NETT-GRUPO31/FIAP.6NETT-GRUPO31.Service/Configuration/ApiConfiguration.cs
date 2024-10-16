@@ -1,4 +1,8 @@
-﻿using FIAP._6NETT_GRUPO31.Infra.Data.Context;
+﻿using FIAP._6NETT_GRUPO31.Application.Interfaces;
+using FIAP._6NETT_GRUPO31.Application.Services;
+using FIAP._6NETT_GRUPO31.Domain.Entities;
+using FIAP._6NETT_GRUPO31.Infra.Data.Context;
+using FIAP._6NETT_GRUPO31.Infra.Data.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
@@ -20,6 +24,18 @@ namespace FIAP._6NETT_GRUPO31.Service.Configuration
             {
                 options.SuppressModelStateInvalidFilter = true;
             });
+
+
+            #region Repository
+            
+            services.AddScoped<IContatoRepository, ContatoRepository>();
+            #endregion
+
+
+            #region Application
+            services.AddScoped<IContatoApplication, ContatoApplication>();
+            #endregion
+
 
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen(c =>
