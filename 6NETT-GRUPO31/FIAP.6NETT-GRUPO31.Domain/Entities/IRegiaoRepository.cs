@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace FIAP._6NETT_GRUPO31.Domain.Entities
 {
-    internal interface IRegiaoRepository
+    public interface IRegiaoRepository
     {
+        public Task<DDDRegiao> GetRegiaoPorDDD(string ddd);
+
     }
 }
