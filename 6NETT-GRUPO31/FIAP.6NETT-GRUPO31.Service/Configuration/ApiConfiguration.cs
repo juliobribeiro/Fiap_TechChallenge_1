@@ -25,18 +25,6 @@ namespace FIAP._6NETT_GRUPO31.Service.Configuration
                 options.SuppressModelStateInvalidFilter = true;
             });
 
-
-            #region Repository
-            
-            services.AddScoped<IContatoRepository, ContatoRepository>();
-            #endregion
-
-
-            #region Application
-            services.AddScoped<IContatoApplication, ContatoApplication>();
-            #endregion
-
-
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen(c =>
             {

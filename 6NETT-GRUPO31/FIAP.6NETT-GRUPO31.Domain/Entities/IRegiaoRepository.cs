@@ -8,9 +8,9 @@ namespace FIAP._6NETT_GRUPO31.Domain.Entities
 {
     public interface IRegiaoRepository
     {
-        public Task<DDDRegiao> GetRegiaoPorDDD(string ddd);
+        Task<DDDRegiao> GetRegiaoPorDDD(string ddd);
 
-        public Task<List<DDDRegiao>> GetRegioes();
+        Task<List<DDDRegiao>> GetRegioes();
 
     }
 }

@@ -8,7 +8,6 @@ namespace FIAP._6NETT_GRUPO31.Domain.Entities
 {
     public interface IContatoRepository
     {
-
         Task<Boolean> AdicionaContato(Contatos contato);
 
         Task<IEnumerable<Contatos>> ConsultaContatos(string ddd);

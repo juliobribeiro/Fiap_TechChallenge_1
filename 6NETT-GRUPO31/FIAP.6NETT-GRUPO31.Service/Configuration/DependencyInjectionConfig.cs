@@ -25,7 +25,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Configuration
 
             #region Application
             services.AddScoped<IContatoApplication, ContatoApplication>();
-            services.AddScoped<IRegiaoApplication, RegiaoApplication>();
+            services.AddScoped<IRegiaoApplication,RegiaoApplication>();
             #endregion
         }
     }

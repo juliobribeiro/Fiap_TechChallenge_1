@@ -1,11 +1,6 @@
 ﻿using FIAP._6NETT_GRUPO31.Application.Dto;
 using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using FIAP._6NETT_GRUPO31.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FIAP._6NETT_GRUPO31.Application.Services
 {
