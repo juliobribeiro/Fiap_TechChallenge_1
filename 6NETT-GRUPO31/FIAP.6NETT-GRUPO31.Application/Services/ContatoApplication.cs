@@ -40,26 +40,62 @@ namespace FIAP._6NETT_GRUPO31.Application.Services
 
         }
 
-        public async Task AtualizarContrato(CadastrarContatoDto dto)
+        public async Task<Boolean> AtualizarContrato(CadastrarContatoDto dto)
         {
-            var entidadeContato = new Contatos()
+            try
             {
-                IdContato = dto.IdContato,
-                Nome = dto.Nome,
-                Email = dto.Email,
-                Telefone = dto.Telefone
-            };
-                        
-            await _contatoRepository.AtualizaContato(entidadeContato);
+                var entidadeContato = new Contatos()
+                {
+                    IdContato = dto.IdContato,
+                    Nome = dto.Nome,
+                    Email = dto.Email,
+                    Telefone = dto.Telefone
+
+
+                };
+                await _contatoRepository.AtualizaContato(entidadeContato);
+
+                return true;
+            }
+            catch (Exception ex) 
+            {
+                return false;
+            }
             
+
         }
 
         public async Task<List<ContatoDto>> ConsultarContatosPorDDD(string ddd)
         {
             var listaContatoDto = new List<ContatoDto>();
-            
-            var listEntidade =  await _contatoRepository.ConsultaContatos(ddd);
-           
+
+            var listEntidade = await _contatoRepository.ConsultaContatos(ddd);
+
+            foreach (var item in listEntidade)
+            {
+                ContatoDto dto = new ContatoDto()
+                {
+                    IdContato = item.IdContato,
+                    Nome = item.Nome,
+                    Email = item.Email,
+                    Telefone = item.Telefone,
+                    DDD = item.DDDRegiao.Ddd
+                };
+
+                listaContatoDto.Add(dto);
+            }
+
+            return listaContatoDto;
+        }
+
+        public async Task<List<ContatoDto>> ConsultarTodosContatos()
+        {
+            var listaContatoDto = new List<ContatoDto>();
+
+            var ddd = string.Empty;
+
+            var listEntidade = await _contatoRepository.ConsultaContatos(ddd);
+
             foreach (var item in listEntidade)
             {
                 ContatoDto dto = new ContatoDto()

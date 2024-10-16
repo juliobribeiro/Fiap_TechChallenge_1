@@ -1,13 +1,18 @@
 ﻿using FIAP._6NETT_GRUPO31.Application.Dto;
+using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FIAP._6NETT_GRUPO31.Service.Controllers
 {    
 
-    
     [ApiController]
     public class ContatoController : MainController
     {
+        private readonly IContatoApplication _contatoApplication;
+        public ContatoController(IContatoApplication contatoApplication)
+        {
+            _contatoApplication = contatoApplication;
+        }
 
         [HttpGet("/contatos")]
         [ProducesResponseType(typeof(List<ContatoDto>), StatusCodes.Status200OK)]        
@@ -15,8 +20,9 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         {
             try
             {
+                var buscaContatos = await _contatoApplication.ConsultarTodosContatos();
 
-                return Ok();
+                return Ok(buscaContatos);
             }
             catch (Exception ex)
             {                
@@ -33,8 +39,9 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         {
             try
             {
+                var buscaContatos = await _contatoApplication.ConsultarContatosPorDDD(ddd);
 
-                return CustomResponse();
+                return Ok(buscaContatos);
             }
             catch (Exception ex)
             {
@@ -51,8 +58,10 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
             try
             {
                 if (!ModelState.IsValid) return CustomResponse(ModelState);
-                
-                return Ok();
+
+                await _contatoApplication.CadastrarContato(contato);
+
+                return Created();
             }
             catch (Exception ex)
             {
@@ -69,8 +78,9 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         {
             try
             {
+                await _contatoApplication.AtualizarContrato(contato);
 
-                return Ok();
+                return NoContent();
             }
             catch (Exception ex)
             {
