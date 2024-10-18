@@ -1,4 +1,5 @@
 ﻿using FIAP._6NETT_GRUPO31.Domain.Entities;
+using FIAP._6NETT_GRUPO31.Domain.Interfaces;
 using FIAP._6NETT_GRUPO31.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using System;

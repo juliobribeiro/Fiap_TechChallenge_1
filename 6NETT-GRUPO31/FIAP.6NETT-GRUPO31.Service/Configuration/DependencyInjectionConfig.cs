@@ -1,6 +1,6 @@
 ﻿using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using FIAP._6NETT_GRUPO31.Application.Services;
-using FIAP._6NETT_GRUPO31.Domain.Entities;
+using FIAP._6NETT_GRUPO31.Domain.Interfaces;
 using FIAP._6NETT_GRUPO31.Infra.Data.Context;
 using FIAP._6NETT_GRUPO31.Infra.Data.Repository;
 using System.ComponentModel.DataAnnotations;

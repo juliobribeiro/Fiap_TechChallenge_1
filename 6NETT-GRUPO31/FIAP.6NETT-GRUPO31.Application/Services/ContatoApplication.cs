@@ -1,6 +1,7 @@
 ﻿using FIAP._6NETT_GRUPO31.Application.Dto;
 using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using FIAP._6NETT_GRUPO31.Domain.Entities;
+using FIAP._6NETT_GRUPO31.Domain.Interfaces;
 
 namespace FIAP._6NETT_GRUPO31.Application.Services
 {

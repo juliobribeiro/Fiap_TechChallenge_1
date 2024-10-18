@@ -1,5 +1,6 @@
 ﻿using FIAP._6NETT_GRUPO31.Application.Dto;
 using FIAP._6NETT_GRUPO31.Application.Interfaces;
+using FIAP._6NETT_GRUPO31.Service.Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FIAP._6NETT_GRUPO31.Service.Controllers
@@ -15,14 +16,32 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         }
 
         [HttpGet("/contatos")]
-        [ProducesResponseType(typeof(List<ContatoDto>), StatusCodes.Status200OK)]        
+        [ProducesResponseType(typeof(List<ContatoModel>), StatusCodes.Status200OK)]        
         public async Task<IActionResult> ConsultarContatos()
         {
             try
             {
-                var buscaContatos = await _contatoApplication.ConsultarTodosContatos();
+                var buscaContatosModel = new List<ContatoModel>();
+                
+                var buscaContatosDto = await _contatoApplication.ConsultarTodosContatos();
 
-                return Ok(buscaContatos);
+
+                foreach (var item in buscaContatosDto)
+                {
+                    var model = new ContatoModel() 
+                    { 
+                        IdContato = item.IdContato,
+                        Nome = item.Nome,
+                        Email = item.Email,
+                        DDD = item.DDD,
+                        Telefone = item.Telefone    
+                    };
+
+                    buscaContatosModel.Add(model);
+
+                }
+
+                return Ok(buscaContatosModel);
             }
             catch (Exception ex)
             {                
@@ -34,15 +53,32 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         }
 
         [HttpGet("/contatos/{ddd:int}")]
-        [ProducesResponseType(typeof(List<ContatoDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(List<ContatoModel>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> ConsultarContatosPorDDD(int ddd)
         {
             try
-            {            
-                var buscaContatos = await _contatoApplication.ConsultarContatosPorDDD(ddd);
+            {
+                var buscaContatosModel = new List<ContatoModel>();
 
-                return Ok(buscaContatos);
+                var buscaContatosDto = await _contatoApplication.ConsultarContatosPorDDD(ddd);
+
+                foreach (var item in buscaContatosDto)
+                {
+                    var model = new ContatoModel()
+                    {
+                        IdContato = item.IdContato,
+                        Nome = item.Nome,
+                        Email = item.Email,
+                        DDD = item.DDD,
+                        Telefone = item.Telefone
+                    };
+
+                    buscaContatosModel.Add(model);
+
+                }
+
+                return Ok(buscaContatosModel);
             }
             catch (Exception ex)
             {
@@ -55,13 +91,21 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
 
         [HttpPost("/contato")]
         [ProducesResponseType(StatusCodes.Status201Created)]        
-        public async Task<IActionResult> CadastrarContato(CadastrarAtualizarContatoDto contato)
+        public async Task<IActionResult> CadastrarContato(CadastrarAtualizarContatoModel contato)
         {
             try
             {
                 if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-                await _contatoApplication.CadastrarContato(contato);
+                var dto = new CadastrarAtualizarContatoDto()
+                {
+                    Nome = contato.Nome,
+                    Email = contato.Email,
+                    Telefone = contato.Telefone,
+                    DDD = contato.DDD
+                };
+
+                await _contatoApplication.CadastrarContato(dto);
 
                 return Created();
             }
@@ -77,11 +121,19 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         [HttpPut("/contato/{id:int}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> AtualizarContato(int id, CadastrarAtualizarContatoDto contato)
+        public async Task<IActionResult> AtualizarContato(int id, CadastrarAtualizarContatoModel contato)
         {
             try
             {
-                await _contatoApplication.AtualizarContrato(id,contato);
+                var dto = new CadastrarAtualizarContatoDto()
+                {
+                    Nome = contato.Nome,
+                    Email = contato.Email,
+                    Telefone = contato.Telefone,
+                    DDD = contato.DDD
+                };
+
+                await _contatoApplication.AtualizarContrato(id, dto);
 
                 return NoContent();
             }
