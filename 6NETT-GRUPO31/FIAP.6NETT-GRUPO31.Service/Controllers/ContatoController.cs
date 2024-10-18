@@ -36,14 +36,11 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         [HttpGet("/contatos/{ddd:int}")]
         [ProducesResponseType(typeof(List<ContatoDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> ConsultarContatosPorDDD(string ddd)
+        public async Task<IActionResult> ConsultarContatosPorDDD(int ddd)
         {
             try
-            {
-                int dddConvertInt;
-                if (!int.TryParse(ddd, out dddConvertInt)) throw new Exception("DDD deve ser número");
-
-                var buscaContatos = await _contatoApplication.ConsultarContatosPorDDD(dddConvertInt);
+            {            
+                var buscaContatos = await _contatoApplication.ConsultarContatosPorDDD(ddd);
 
                 return Ok(buscaContatos);
             }
@@ -77,7 +74,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
             }
         }
 
-        [HttpPut("/contato/{id}")]
+        [HttpPut("/contato/{id:int}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> AtualizarContato(int id, CadastrarAtualizarContatoDto contato)
