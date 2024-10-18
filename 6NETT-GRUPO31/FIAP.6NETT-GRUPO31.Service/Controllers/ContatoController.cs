@@ -27,25 +27,30 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
             catch (Exception ex)
             {                
                 AdicionarErroProcessamento("Erro ao consutlar os contatos");
+                AddExptionErrorMessage(ex);
                 return CustomResponse();
 
             }
         }
 
-        [HttpGet("/contatos/{ddd}")]
+        [HttpGet("/contatos/{ddd:int}")]
         [ProducesResponseType(typeof(List<ContatoDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> ConsultarContatosPorDDD(string ddd)
         {
             try
             {
-                var buscaContatos = await _contatoApplication.ConsultarContatosPorDDD(ddd);
+                int dddConvertInt;
+                if (!int.TryParse(ddd, out dddConvertInt)) throw new Exception("DDD deve ser número");
+
+                var buscaContatos = await _contatoApplication.ConsultarContatosPorDDD(dddConvertInt);
 
                 return Ok(buscaContatos);
             }
             catch (Exception ex)
             {
                 AdicionarErroProcessamento("Erro ao consutlar os contatos por DDD");
+                AddExptionErrorMessage(ex);
                 return CustomResponse();                
 
             }
@@ -53,7 +58,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
 
         [HttpPost("/contato")]
         [ProducesResponseType(StatusCodes.Status201Created)]        
-        public async Task<IActionResult> CadastrarContato(CadastrarContatoDto contato)
+        public async Task<IActionResult> CadastrarContato(CadastrarAtualizarContatoDto contato)
         {
             try
             {
@@ -66,6 +71,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
             catch (Exception ex)
             {
                 AdicionarErroProcessamento("Erro ao cadastrar o contato");
+                AddExptionErrorMessage(ex);
                 return CustomResponse();
 
             }
@@ -74,20 +80,46 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         [HttpPut("/contato/{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> AtualizarContato(CadastrarContatoDto contato)
+        public async Task<IActionResult> AtualizarContato(int id, CadastrarAtualizarContatoDto contato)
         {
             try
             {
-                await _contatoApplication.AtualizarContrato(contato);
+                await _contatoApplication.AtualizarContrato(id,contato);
 
                 return NoContent();
             }
             catch (Exception ex)
             {
                 AdicionarErroProcessamento("Erro ao atualizar o contatos");
+                AddExptionErrorMessage(ex);
                 return CustomResponse();
 
             }
+        }
+
+
+        [HttpDelete("/contato/{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> DeletarContato(int id)
+        {
+            try
+            {
+                await _contatoApplication.DeletarContato(id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+
+                AdicionarErroProcessamento("Erro ao deletar o contato");
+                AddExptionErrorMessage(ex);
+                return CustomResponse(); ;
+            }
+        }
+
+        private void AddExptionErrorMessage(Exception ex)
+        {
+            if (ex != null && !string.IsNullOrEmpty(ex.Message)) AdicionarErroProcessamento(ex.Message);
         }
     }
 

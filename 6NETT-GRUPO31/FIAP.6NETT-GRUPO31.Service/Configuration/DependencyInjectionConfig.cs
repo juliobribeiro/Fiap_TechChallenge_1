@@ -18,14 +18,12 @@ namespace FIAP._6NETT_GRUPO31.Service.Configuration
 
             #region Repository
             //repository
-            services.AddScoped<IContatoRepository, ContatoRepository>();
-            services.AddScoped<IRegiaoRepository, RegiaoRepository>();
+            services.AddScoped<IContatoRepository, ContatoRepository>();            
             #endregion
 
 
             #region Application
-            services.AddScoped<IContatoApplication, ContatoApplication>();
-            services.AddScoped<IRegiaoApplication,RegiaoApplication>();
+            services.AddScoped<IContatoApplication, ContatoApplication>();            
             #endregion
         }
     }

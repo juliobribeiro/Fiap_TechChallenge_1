@@ -3,6 +3,7 @@ using FIAP._6NETT_GRUPO31.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FIAP._6NETT_GRUPO31.Infra.Data.Migrations
 {
     [DbContext(typeof(FIAPContext))]
-    partial class FIAPContextModelSnapshot : ModelSnapshot
+    [Migration("20241017231711_alterColumnDDDToInt")]
+    partial class alterColumnDDDToInt
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -3,6 +3,7 @@ using FIAP._6NETT_GRUPO31.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FIAP._6NETT_GRUPO31.Infra.Data.Migrations
 {
     [DbContext(typeof(FIAPContext))]
-    partial class FIAPContextModelSnapshot : ModelSnapshot
+    [Migration("20241017230750_alterDatabaseDeleteDDDRegiao")]
+    partial class alterDatabaseDeleteDDDRegiao
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,8 +32,9 @@ namespace FIAP._6NETT_GRUPO31.Infra.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdContato"));
 
-                    b.Property<int>("DDD")
-                        .HasColumnType("int");
+                    b.Property<string>("DDD")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
 
                     b.Property<string>("Email")
                         .IsRequired()

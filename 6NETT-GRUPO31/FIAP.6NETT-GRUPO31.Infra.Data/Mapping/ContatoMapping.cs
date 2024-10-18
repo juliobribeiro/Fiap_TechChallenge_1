@@ -17,11 +17,7 @@ namespace FIAP._6NETT_GRUPO31.Infra.Data.Mapping
 
             builder.HasIndex(X => X.Email).IsUnique();
 
-            builder.Property(x => x.Nome).HasColumnType("varchar(500)");
-
-            builder.HasOne(x => x.DDDRegiao)
-                .WithMany(x => x.Contatos)
-                .HasForeignKey(x => x.DDDRegiaoId);
+            builder.Property(x => x.Nome).HasColumnType("varchar(500)");         
 
             builder.ToTable("TAB_CONTATOS");
         }

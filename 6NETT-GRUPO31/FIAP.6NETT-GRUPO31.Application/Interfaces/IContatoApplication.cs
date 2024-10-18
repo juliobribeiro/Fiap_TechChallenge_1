@@ -9,9 +9,10 @@ namespace FIAP._6NETT_GRUPO31.Application.Interfaces
 {
     public interface IContatoApplication
     {
-        Task<Boolean> CadastrarContato(CadastrarContatoDto dto);
-        Task<Boolean> AtualizarContrato(CadastrarContatoDto dto);
-        Task<List<ContatoDto>> ConsultarContatosPorDDD(string ddd);
+        Task<Boolean> CadastrarContato(CadastrarAtualizarContatoDto dto);
+        Task<Boolean> AtualizarContrato(int contatoId, CadastrarAtualizarContatoDto dto);
+        Task<List<ContatoDto>> ConsultarContatosPorDDD(int ddd);
         Task<List<ContatoDto>> ConsultarTodosContatos();
+        Task<Boolean> DeletarContato(int contatoId);
     }
 }

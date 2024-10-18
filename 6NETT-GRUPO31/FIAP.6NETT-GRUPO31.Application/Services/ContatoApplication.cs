@@ -1,12 +1,6 @@
 ﻿using FIAP._6NETT_GRUPO31.Application.Dto;
 using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using FIAP._6NETT_GRUPO31.Domain.Entities;
-using FIAP._6NETT_GRUPO31.Infra.Data.Mapping;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FIAP._6NETT_GRUPO31.Application.Services
 {
@@ -19,82 +13,84 @@ namespace FIAP._6NETT_GRUPO31.Application.Services
             _contatoRepository = contatoRepository;
         }
 
-        public async Task<Boolean> CadastrarContato(CadastrarContatoDto dto)
+        public async Task<Boolean> CadastrarContato(CadastrarAtualizarContatoDto dto)
         {
+            var resultado = false;            
 
-            var entidadeContato = new Contatos()
+            if (dto != null)
             {
-                Nome = dto.Nome,
-                Email = dto.Email,
-                Telefone = dto.Telefone
-            };
+                if (await ExisteEmailCadastrado(dto.Email)) throw new Exception($"O email {dto.Email} já está sendo usando para outro contato");
 
-            var resultado = false;
-
-            if (entidadeContato != null)
-            {
-                resultado = await _contatoRepository.AdicionaContato(entidadeContato);
+                resultado = await _contatoRepository.AdicionaContato(MappingContatoDtoToContato(dto));
             }
 
             return resultado;
 
         }
 
-        public async Task<Boolean> AtualizarContrato(CadastrarContatoDto dto)
+        public async Task<Boolean> AtualizarContrato(int contatoId,CadastrarAtualizarContatoDto dto)
         {
             try
             {
-                var entidadeContato = new Contatos()
+                var contatoUpdate = await _contatoRepository.ConsultarContatoPorId(contatoId);              
+
+                if (contatoUpdate is null) throw new Exception($"Contato com  id:{contatoId} não encontrado");
+
+                if (contatoUpdate.Email != dto.Email)
                 {
-                    IdContato = dto.IdContato,
-                    Nome = dto.Nome,
-                    Email = dto.Email,
-                    Telefone = dto.Telefone
-                };
-                await _contatoRepository.AtualizaContato(entidadeContato);
+                    if (await ExisteEmailCadastrado(dto.Email)) throw new Exception($"O email {dto.Email} já está sendo usando para outro contato");
+                }
+
+                contatoUpdate.Email = dto.Email;
+                contatoUpdate.Telefone = dto.Telefone;
+                contatoUpdate.Nome = dto.Nome;
+                contatoUpdate.DDD = dto.DDD;
+
+                await _contatoRepository.AtualizaContato(contatoUpdate);
 
                 return true;
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
-                return false;
+                throw;
             }
-            
-
         }
 
-        public async Task<List<ContatoDto>> ConsultarContatosPorDDD(string ddd)
+        public async Task<List<ContatoDto>> ConsultarContatosPorDDD(int ddd)
         {
             var listaContatoDto = new List<ContatoDto>();
 
             var listEntidade = await _contatoRepository.ConsultaContatos(ddd);
 
-            foreach (var item in listEntidade)
-            {
-                ContatoDto dto = new ContatoDto()
-                {
-                    IdContato = item.IdContato,
-                    Nome = item.Nome,
-                    Email = item.Email,
-                    Telefone = item.Telefone,
-                    DDD = item.DDDRegiao.Ddd
-                };
-
-                listaContatoDto.Add(dto);
-            }
-
-            return listaContatoDto;
+            return MappingContatosToContatoDto(listEntidade.ToList());
         }
 
         public async Task<List<ContatoDto>> ConsultarTodosContatos()
         {
+         
+            var listEntidade = await _contatoRepository.ConsultaContatos(0);
+
+            return MappingContatosToContatoDto(listEntidade.ToList());
+        }
+
+        public async Task<bool> DeletarContato(int contatoId)
+        {
+            var contatoDelete = await _contatoRepository.ConsultarContatoPorId(contatoId);
+
+            if (contatoDelete is null) throw new Exception($"Contato com id:{contatoId} não encontrado");
+
+            await _contatoRepository.DeletarContato(contatoDelete);
+
+            return true;
+
+
+        }
+
+        private List<ContatoDto> MappingContatosToContatoDto(List<Contatos> contatos)
+        {
             var listaContatoDto = new List<ContatoDto>();
 
-            var ddd = string.Empty;
-
-            var listEntidade = await _contatoRepository.ConsultaContatos(ddd);
-
-            foreach (var item in listEntidade)
+            foreach (var item in contatos)
             {
                 ContatoDto dto = new ContatoDto()
                 {
@@ -102,7 +98,7 @@ namespace FIAP._6NETT_GRUPO31.Application.Services
                     Nome = item.Nome,
                     Email = item.Email,
                     Telefone = item.Telefone,
-                    DDD = item.DDDRegiao.Ddd
+                    DDD = item.DDD
                 };
 
                 listaContatoDto.Add(dto);
@@ -110,5 +106,28 @@ namespace FIAP._6NETT_GRUPO31.Application.Services
 
             return listaContatoDto;
         }
+
+        private Contatos MappingContatoDtoToContato(CadastrarAtualizarContatoDto dto)
+        {
+            var entidadeContato = new Contatos()
+            {                
+                Nome = dto.Nome,
+                Email = dto.Email,
+                Telefone = dto.Telefone,
+                DDD = dto.DDD
+            };
+
+            return entidadeContato;
+        }
+
+        private async Task<bool> ExisteEmailCadastrado(string email)
+        {
+            var contato = await _contatoRepository.ConsultarContatoPorEmail(email);
+
+            return contato != null;
+
+        }
+
+      
     }
 }

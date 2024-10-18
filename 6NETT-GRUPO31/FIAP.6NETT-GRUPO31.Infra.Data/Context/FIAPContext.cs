@@ -12,8 +12,7 @@ namespace FIAP._6NETT_GRUPO31.Infra.Data.Context
 {
     public class FIAPContext: DbContext
     {
-        public DbSet<Contatos> Contatos { get; set; }
-        public DbSet<DDDRegiao> DDDRegiao { get; set; }
+        public DbSet<Contatos> Contatos { get; set; }        
         public FIAPContext(DbContextOptions<FIAPContext> options) : base(options)
         {
             

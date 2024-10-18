@@ -30,10 +30,28 @@ namespace FIAP._6NETT_GRUPO31.Infra.Data.Repository
             await _context.SaveChangesAsync();         
         }
 
-        public async Task<IEnumerable<Contatos>> ConsultaContatos(string ddd)
+        public async Task<IEnumerable<Contatos>> ConsultaContatos(int ddd)
         {
-            if (string.IsNullOrWhiteSpace(ddd)) return _context.Contatos.Include("DDDRegiao");
-            else return _context.Contatos.Where(x => x.DDDRegiao.Ddd == ddd).Include("DDDRegiao");
+            
+            if (ddd == 0) return _context.Contatos;
+            else return _context.Contatos.Where(x => x.DDD == ddd);
+        }
+
+        public async Task<Contatos> ConsultarContatoPorId(int IdContato)
+        {
+            return await _context.Contatos.FirstOrDefaultAsync(x => x.IdContato == IdContato);
+        }
+
+        public async Task<bool> DeletarContato(Contatos contato)
+        {
+            _context.Contatos.Remove(contato);
+            return await _context.SaveChangesAsync() > 0;
+
+        }
+
+        public async Task<Contatos> ConsultarContatoPorEmail(string email)
+        {
+            return await _context.Contatos.FirstOrDefaultAsync(x => x.Email.Equals(email));
         }
     }
 }

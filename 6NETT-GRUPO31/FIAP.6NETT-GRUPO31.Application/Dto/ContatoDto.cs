@@ -12,7 +12,7 @@ namespace FIAP._6NETT_GRUPO31.Application.Dto
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Telefone { get; set; }
-        public string DDD { get; set; }
+        public int DDD { get; set; }
         
     }
 }
