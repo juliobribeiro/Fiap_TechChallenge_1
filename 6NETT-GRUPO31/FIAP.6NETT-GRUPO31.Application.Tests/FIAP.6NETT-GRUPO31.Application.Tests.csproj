@@ -23,10 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Application\FIAP.6NETT-GRUPO31.Application.csproj" />
   </ItemGroup>
 
