@@ -3,24 +3,64 @@
   "WorkspaceRootPath": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.infra.data\\repository\\contatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|solutionrelative:fiap.6nett-grupo31.infra.data\\repository\\contatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\configuration\\apiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\configuration\\apiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\dto\\cadastraratualizarcontatodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\dto\\cadastraratualizarcontatodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\dto\\contatodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\dto\\contatodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\interfaces\\icontratoapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\interfaces\\icontratoapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application\\dto\\cadastraratualizarcontatodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj|solutionrelative:fiap.6nett-grupo31.application\\dto\\cadastraratualizarcontatodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application\\services\\contatoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj|solutionrelative:fiap.6nett-grupo31.application\\services\\contatoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\model\\cadastraratualizarcontatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\model\\cadastraratualizarcontatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.infra.data\\repository\\contatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|solutionrelative:fiap.6nett-grupo31.infra.data\\repository\\contatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.domain.tests\\interfaces\\icontatorepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj|solutionrelative:fiap.6nett-grupo31.domain.tests\\interfaces\\icontatorepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BBD30A4-9E8B-4C05-8864-B0AB2C461B11}|FIAP.6NETT-GRUPO31.Domain\\FIAP.6NETT-GRUPO31.Domain.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.domain\\entities\\icontatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BBD30A4-9E8B-4C05-8864-B0AB2C461B11}|FIAP.6NETT-GRUPO31.Domain\\FIAP.6NETT-GRUPO31.Domain.csproj|solutionrelative:fiap.6nett-grupo31.domain\\entities\\icontatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.domain.tests\\entities\\contatostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj|solutionrelative:fiap.6nett-grupo31.domain.tests\\entities\\contatostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{095CB4C2-0772-46E1-84E3-CCE452D6D301}|FIAP.6NETT-GRUPO31.Service.Tests\\FIAP.6NETT-GRUPO31.Service.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{095CB4C2-0772-46E1-84E3-CCE452D6D301}|FIAP.6NETT-GRUPO31.Service.Tests\\FIAP.6NETT-GRUPO31.Service.Tests.csproj|solutionrelative:fiap.6nett-grupo31.service.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application\\dto\\contatodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application\\interfaces\\icontatoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj|solutionrelative:fiap.6nett-grupo31.application\\interfaces\\icontatoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,32 +79,12 @@
       "RelativeMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|solutionrelative:fiap.6nett-grupo31.infra.data\\mapping\\contatomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\configuration\\apiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\configuration\\apiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017231711_alterColumnDDDToInt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017231711_alterColumnDDDToInt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.domain.tests\\entities\\contatostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj|solutionrelative:fiap.6nett-grupo31.domain.tests\\entities\\contatostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3BBD30A4-9E8B-4C05-8864-B0AB2C461B11}|FIAP.6NETT-GRUPO31.Domain\\FIAP.6NETT-GRUPO31.Domain.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.domain\\entities\\contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BBD30A4-9E8B-4C05-8864-B0AB2C461B11}|FIAP.6NETT-GRUPO31.Domain\\FIAP.6NETT-GRUPO31.Domain.csproj|solutionrelative:fiap.6nett-grupo31.domain\\entities\\contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017230750_alterDatabaseDeleteDDDRegiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017230750_alterDatabaseDeleteDDDRegiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.infra.data\\context\\fiapcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|solutionrelative:fiap.6nett-grupo31.infra.data\\context\\fiapcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.infra.data\\fiap.6nett-grupo31.infra.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -83,16 +99,8 @@
       "RelativeMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|solutionrelative:fiap.6nett-grupo31.infra.data\\migrations\\20241003220140_altera\u00E7\u00E3onometabeladdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.domain.tests\\fiap.6nett-grupo31.domain.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj|solutionrelative:fiap.6nett-grupo31.domain.tests\\fiap.6nett-grupo31.domain.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.domain.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj|solutionrelative:fiap.6nett-grupo31.domain.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj|solutionrelative:fiap.6nett-grupo31.service\\fiap.6nett-grupo31.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\fiap.6nett-grupo31.application.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\fiap.6nett-grupo31.application.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -123,8 +127,12 @@
       "RelativeMoniker": "D:0:0:{095CB4C2-0772-46E1-84E3-CCE452D6D301}|FIAP.6NETT-GRUPO31.Service.Tests\\FIAP.6NETT-GRUPO31.Service.Tests.csproj|solutionrelative:fiap.6nett-grupo31.service.tests\\fiap.6nett-grupo31.service.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{095CB4C2-0772-46E1-84E3-CCE452D6D301}|FIAP.6NETT-GRUPO31.Service.Tests\\FIAP.6NETT-GRUPO31.Service.Tests.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{095CB4C2-0772-46E1-84E3-CCE452D6D301}|FIAP.6NETT-GRUPO31.Service.Tests\\FIAP.6NETT-GRUPO31.Service.Tests.csproj|solutionrelative:fiap.6nett-grupo31.service.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.infra.data\\migrations\\20241017231711_altercolumndddtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|solutionrelative:fiap.6nett-grupo31.infra.data\\migrations\\20241017231711_altercolumndddtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|c:\\posfiap\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.infra.data\\migrations\\20241017230750_alterdatabasedeletedddregiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B961BD29-AFC0-4922-8B84-EECDA9EC61D8}|FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj|solutionrelative:fiap.6nett-grupo31.infra.data\\migrations\\20241017230750_alterdatabasedeletedddregiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,158 +142,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Contatos.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain\\Entities\\Contatos.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Domain\\Entities\\Contatos.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain\\Entities\\Contatos.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Domain\\Entities\\Contatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:03:20.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ContatoController.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Controllers\\ContatoController.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Controllers\\ContatoController.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Controllers\\ContatoController.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Controllers\\ContatoController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:43:40.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IContatoRepository.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain\\Entities\\IContatoRepository.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Domain\\Entities\\IContatoRepository.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain\\Entities\\IContatoRepository.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Domain\\Entities\\IContatoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:05:29.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContatoApplication.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Services\\ContatoApplication.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Services\\ContatoApplication.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Services\\ContatoApplication.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Services\\ContatoApplication.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowFMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:43:11.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CadastrarAtualizarContatoDto.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Dto\\CadastrarAtualizarContatoDto.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Dto\\CadastrarAtualizarContatoDto.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Dto\\CadastrarAtualizarContatoDto.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Dto\\CadastrarAtualizarContatoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T00:49:15.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContatoDto.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Dto\\ContatoDto.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Dto\\ContatoDto.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Dto\\ContatoDto.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Dto\\ContatoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:46:33.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ContatoRepository.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Repository\\ContatoRepository.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Repository\\ContatoRepository.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Repository\\ContatoRepository.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Repository\\ContatoRepository.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAADgvzMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:05:56.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ContatoMapping.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Mapping\\ContatoMapping.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Mapping\\ContatoMapping.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Mapping\\ContatoMapping.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Mapping\\ContatoMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:10:51.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DependencyInjectionConfig.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Configuration\\DependencyInjectionConfig.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Configuration\\DependencyInjectionConfig.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Configuration\\DependencyInjectionConfig.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Configuration\\DependencyInjectionConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:40:57.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainController.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA7wBgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T01:17:49.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IContatoApplication.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:43:03.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ApiConfiguration.cs",
               "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Configuration\\ApiConfiguration.cs",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Configuration\\ApiConfiguration.cs",
@@ -298,59 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ContatosTests.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowBMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:02:35.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20241017231711_alterColumnDDDToInt.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017231711_alterColumnDDDToInt.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017231711_alterColumnDDDToInt.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017231711_alterColumnDDDToInt.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017231711_alterColumnDDDToInt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T23:17:11.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FIAPContext.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Context\\FIAPContext.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Context\\FIAPContext.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Context\\FIAPContext.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Context\\FIAPContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:07:12.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20241017230750_alterDatabaseDeleteDDDRegiao.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017230750_alterDatabaseDeleteDDDRegiao.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017230750_alterDatabaseDeleteDDDRegiao.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017230750_alterDatabaseDeleteDDDRegiao.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017230750_alterDatabaseDeleteDDDRegiao.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T23:07:50.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\appsettings.json",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\appsettings.json",
@@ -363,46 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FIAP.6NETT-GRUPO31.Infra.Data.csproj",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T21:04:24.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20241003220140_Altera\u00E7\u00E3oNomeTabelaDDD.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003220140_Altera\u00E7\u00E3oNomeTabelaDDD.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003220140_Altera\u00E7\u00E3oNomeTabelaDDD.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003220140_Altera\u00E7\u00E3oNomeTabelaDDD.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003220140_Altera\u00E7\u00E3oNomeTabelaDDD.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T22:01:40.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20241003215121_Inicial.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003215121_Inicial.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003215121_Inicial.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003215121_Inicial.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003215121_Inicial.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:51:21.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\appsettings.Development.json",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\appsettings.Development.json",
@@ -415,20 +185,289 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Domain.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Domain.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ContatoRepository.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Repository\\ContatoRepository.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Repository\\ContatoRepository.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Repository\\ContatoRepository.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Repository\\ContatoRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wCgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:09:46.318Z",
+              "WhenOpened": "2024-10-03T21:05:56.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CadastrarAtualizarContatoDtoTests.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Dto\\CadastrarAtualizarContatoDtoTests.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\Dto\\CadastrarAtualizarContatoDtoTests.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Dto\\CadastrarAtualizarContatoDtoTests.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\Dto\\CadastrarAtualizarContatoDtoTests.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwHIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:45:37.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CadastrarAtualizarContatoModel.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Model\\CadastrarAtualizarContatoModel.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Model\\CadastrarAtualizarContatoModel.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Model\\CadastrarAtualizarContatoModel.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Model\\CadastrarAtualizarContatoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:47:11.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContatoDtoTests.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Dto\\ContatoDtoTests.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\Dto\\ContatoDtoTests.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Dto\\ContatoDtoTests.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\Dto\\ContatoDtoTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:47:28.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IContratoApplicationTests.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Interfaces\\IContratoApplicationTests.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\Interfaces\\IContratoApplicationTests.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Interfaces\\IContratoApplicationTests.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\Interfaces\\IContratoApplicationTests.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:49:18.74Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CadastrarAtualizarContatoDto.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Dto\\CadastrarAtualizarContatoDto.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Dto\\CadastrarAtualizarContatoDto.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Dto\\CadastrarAtualizarContatoDto.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Dto\\CadastrarAtualizarContatoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T00:49:15.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ContatosTests.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:02:35.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:37:10.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IContatoRepositoryTests.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\Interfaces\\IContatoRepositoryTests.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Domain.Tests\\Interfaces\\IContatoRepositoryTests.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\Interfaces\\IContatoRepositoryTests.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Domain.Tests\\Interfaces\\IContatoRepositoryTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwGkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:44:28.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContatoController.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Controllers\\ContatoController.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Controllers\\ContatoController.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Controllers\\ContatoController.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Controllers\\ContatoController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAGsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:42:57.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:03:08.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependencyInjectionConfig.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Configuration\\DependencyInjectionConfig.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Configuration\\DependencyInjectionConfig.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Configuration\\DependencyInjectionConfig.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Configuration\\DependencyInjectionConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:40:57.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Contatos.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain\\Entities\\Contatos.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Domain\\Entities\\Contatos.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain\\Entities\\Contatos.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Domain\\Entities\\Contatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:03:20.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContatoDto.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Dto\\ContatoDto.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Dto\\ContatoDto.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Dto\\ContatoDto.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Dto\\ContatoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:46:33.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ContatoMapping.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Mapping\\ContatoMapping.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Mapping\\ContatoMapping.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Mapping\\ContatoMapping.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Mapping\\ContatoMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:10:51.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:17:49.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IContatoApplication.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:43:03.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241017231711_alterColumnDDDToInt.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017231711_alterColumnDDDToInt.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017231711_alterColumnDDDToInt.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017231711_alterColumnDDDToInt.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017231711_alterColumnDDDToInt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T23:17:11.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FIAPContext.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Context\\FIAPContext.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Context\\FIAPContext.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Context\\FIAPContext.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Context\\FIAPContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:07:12.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20241017230750_alterDatabaseDeleteDDDRegiao.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017230750_alterDatabaseDeleteDDDRegiao.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017230750_alterDatabaseDeleteDDDRegiao.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017230750_alterDatabaseDeleteDDDRegiao.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241017230750_alterDatabaseDeleteDDDRegiao.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T23:07:50.45Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "FIAP.6NETT-GRUPO31.Infra.Data.csproj",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\FIAP.6NETT-GRUPO31.Infra.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T21:04:24.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20241003220140_Altera\u00E7\u00E3oNomeTabelaDDD.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003220140_Altera\u00E7\u00E3oNomeTabelaDDD.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003220140_Altera\u00E7\u00E3oNomeTabelaDDD.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003220140_Altera\u00E7\u00E3oNomeTabelaDDD.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003220140_Altera\u00E7\u00E3oNomeTabelaDDD.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T22:01:40.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20241003215121_Inicial.cs",
+              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003215121_Inicial.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003215121_Inicial.cs",
+              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003215121_Inicial.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003215121_Inicial.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:51:21.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "FIAP.6NETT-GRUPO31.Domain.Tests.csproj",
               "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj",
@@ -436,12 +475,11 @@
               "RelativeToolTip": "FIAP.6NETT-GRUPO31.Domain.Tests\\FIAP.6NETT-GRUPO31.Domain.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-09T01:23:46.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T01:23:46.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Program.cs",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Program.cs",
@@ -449,12 +487,11 @@
               "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:38:12.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T21:38:12.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "20241003215027_Inicial.cs",
               "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003215027_Inicial.cs",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Infra.Data\\Migrations\\20241003215027_Inicial.cs",
@@ -465,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "FIAP.6NETT-GRUPO31.Application.csproj",
               "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj",
@@ -473,12 +510,11 @@
               "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\FIAP.6NETT-GRUPO31.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T21:42:27.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T21:42:27.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "FIAP.6NETT-GRUPO31.Service.csproj",
               "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj",
@@ -486,25 +522,11 @@
               "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.Service.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T21:39:16.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T21:39:16.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:37:10.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "FIAP.6NETT-GRUPO31.Application.Tests.csproj",
               "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj",
@@ -512,12 +534,11 @@
               "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\FIAP.6NETT-GRUPO31.Application.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T21:37:18.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T21:37:18.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "FIAP.6NETT-GRUPO31.Service.Tests.csproj",
               "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service.Tests\\FIAP.6NETT-GRUPO31.Service.Tests.csproj",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service.Tests\\FIAP.6NETT-GRUPO31.Service.Tests.csproj",
@@ -525,21 +546,7 @@
               "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service.Tests\\FIAP.6NETT-GRUPO31.Service.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T21:37:15.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\PosFiap\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:03:08.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T21:37:15.677Z"
             }
           ]
         }

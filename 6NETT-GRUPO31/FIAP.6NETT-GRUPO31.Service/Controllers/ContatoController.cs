@@ -16,7 +16,8 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         }
 
         [HttpGet("/contatos")]
-        [ProducesResponseType(typeof(List<ContatoModel>), StatusCodes.Status200OK)]        
+        [ProducesResponseType(typeof(List<ContatoModel>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> ConsultarContatos()
         {
             try
@@ -55,6 +56,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         [HttpGet("/contatos/{ddd:int}")]
         [ProducesResponseType(typeof(List<ContatoModel>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> ConsultarContatosPorDDD(int ddd)
         {
             try
@@ -90,7 +92,8 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         }
 
         [HttpPost("/contato")]
-        [ProducesResponseType(StatusCodes.Status201Created)]        
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> CadastrarContato(CadastrarAtualizarContatoModel contato)
         {
             try
@@ -121,6 +124,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
         [HttpPut("/contato/{id:int}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> AtualizarContato(int id, CadastrarAtualizarContatoModel contato)
         {
             try
@@ -155,7 +159,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Controllers
             try
             {
                 await _contatoApplication.DeletarContato(id);
-                return Ok();
+                return NoContent();
             }
             catch (Exception ex)
             {
