@@ -3,6 +3,7 @@ using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using FIAP._6NETT_GRUPO31.Service.Controllers;
 using FIAP._6NETT_GRUPO31.Service.Model;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using System;
@@ -111,7 +112,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Tests.Controllers
         }
 
         [Fact]
-        public async Task DeletarContato_ShouldReturnOkResult_WhenDeletionIsSuccessful()
+        public async Task DeletarContato_ShouldReturnNoContentResult_WhenDeletionIsSuccessful()
         {
             // Arrange
             var id = 1;
@@ -121,7 +122,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Tests.Controllers
             var result = await _controller.DeletarContato(id);
 
             // Assert
-            Assert.IsType<OkResult>(result);
+            Assert.IsType<NoContentResult>(result);
         }
 
        
