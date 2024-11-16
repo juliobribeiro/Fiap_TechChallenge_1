@@ -20,15 +20,15 @@ jobs:
 
     - name: Install dependencies
       run: dotnet restore
-      working-directory: 6NETT-GRUPO31
+      working-directory: 6NETT-GRUPO31/
       
     - name: Build
       run: dotnet build
-      working-directory: 6NETT-GRUPO31
+      working-directory: 6NETT-GRUPO31/
 
     - name: Test with the dotnet CLI
       run: dotnet test
-      working-directory: 6NETT-GRUPO31
+      working-directory: 6NETT-GRUPO31/
 
 
 
