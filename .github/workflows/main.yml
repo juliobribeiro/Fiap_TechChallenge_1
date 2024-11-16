@@ -11,9 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-      with:
-        path: 6NETT-GRUPO31
+    - uses: actions/checkout@v4      
 
     - name: Setup dotnet
       uses: actions/setup-dotnet@v3
@@ -22,15 +20,15 @@ jobs:
 
     - name: Install dependencies
       run: dotnet restore
-      with:
-        path: 6NETT-GRUPO31
+      working-directory: 6NETT-GRUPO31
       
-
     - name: Build
       run: dotnet build
+      working-directory: 6NETT-GRUPO31
 
     - name: Test with the dotnet CLI
       run: dotnet test
+      working-directory: 6NETT-GRUPO31
 
 
 
