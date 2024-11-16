@@ -12,7 +12,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-      path: 6NETT-GRUPO31
+      with:
+        path: 6NETT-GRUPO31
 
     - name: Setup dotnet
       uses: actions/setup-dotnet@v3
