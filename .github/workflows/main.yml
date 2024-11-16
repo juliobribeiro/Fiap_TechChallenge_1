@@ -9,6 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 6NETT-GRUPO31
 
     steps:
     - uses: actions/checkout@v4      
@@ -20,15 +23,12 @@ jobs:
 
     - name: Install dependencies
       run: dotnet restore
-      working-directory: 6NETT-GRUPO31/
       
     - name: Build
-      run: dotnet build
-      working-directory: 6NETT-GRUPO31/
+      run: dotnet build  
 
     - name: Test with the dotnet CLI
       run: dotnet test
-      working-directory: 6NETT-GRUPO31/
 
 
 
