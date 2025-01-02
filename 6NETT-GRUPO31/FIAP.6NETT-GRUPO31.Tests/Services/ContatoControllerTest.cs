@@ -3,6 +3,7 @@ using FIAP._6NETT_GRUPO31.Infra.Data.Context;
 using FIAP._6NETT_GRUPO31.Service.Controllers;
 using FIAP._6NETT_GRUPO31.Service.Model;
 using FIAP._6NETT_GRUPO31.Tests.Infra;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -50,6 +51,47 @@ namespace FIAP._6NETT_GRUPO31.Tests.Services
             var okResult = Assert.IsType<OkObjectResult>(contatos);
             var returnedContatos = Assert.IsType<List<ContatoModel>>(okResult.Value);
         }
+
+        [Fact]
+        public async Task CadastrarContato_ShouldReturnCreatedResult_WhenModelIsValid()
+        {
+            // Arrange
+            var contatoModel = new CadastrarAtualizarContatoModel
+            {
+                Nome = "João",
+                Email = "joao@email.com",
+                Telefone = "123456789",
+                DDD = 11
+            };
+
+            var result = await _contatoController.CadastrarContato(contatoModel);            
+
+            // Assert
+            Assert.IsType<CreatedResult>(result);
+        }
+
+        [Fact]
+        public async Task CadastrarContato_ShouldReturnBadRequest_WhenEmailExist()
+        {
+            // Arrange
+            var contatoModel = new CadastrarAtualizarContatoModel
+            {
+                Nome = "João",
+                Email = "rodrigo@email.com",
+                Telefone = "123456789",
+                DDD = 11
+            };
+
+            var result = await _contatoController.CadastrarContato(contatoModel);
+
+            // Assert
+            var badRequest = Assert.IsType<BadRequestObjectResult>(result);
+            var returnedContatos = Assert.IsType<ValidationProblemDetails>(badRequest.Value);
+            Assert.NotNull(returnedContatos.Errors.FirstOrDefault(x => x.Value.Equals("O email rodrigo@email.com já está sendo usando para outro contato")));
+
+        }
+
+      
 
 
 
