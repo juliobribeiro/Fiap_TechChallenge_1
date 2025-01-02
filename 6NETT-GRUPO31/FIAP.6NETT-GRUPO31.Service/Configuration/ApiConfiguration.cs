@@ -6,6 +6,7 @@ using FIAP._6NETT_GRUPO31.Infra.Data.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
+using Prometheus;
 
 namespace FIAP._6NETT_GRUPO31.Service.Configuration
 {
@@ -29,6 +30,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Configuration
             services.AddSwaggerGen(c =>
             {
             });
+            services.UseHttpClientMetrics();
         }
 
         public static void UseApiConfiguration(this WebApplication app, IWebHostEnvironment env)
@@ -37,9 +39,11 @@ namespace FIAP._6NETT_GRUPO31.Service.Configuration
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
-            }
+            }     
 
-            app.UseHttpsRedirection();            
+            app.UseMetricServer();
+            app.UseHttpMetrics();
+            // app.UseHttpsRedirection();            
             app.MapControllers();
         }
     }
