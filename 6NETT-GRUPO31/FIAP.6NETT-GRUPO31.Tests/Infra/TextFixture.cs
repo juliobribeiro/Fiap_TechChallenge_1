@@ -14,9 +14,10 @@ namespace FIAP._6NETT_GRUPO31.Tests.Infra
         public IServiceCollection _servicesCollection { get; set; }
         public TextFixture()
         {
-            _servicesCollection = new ServiceCollection();
-            _servicesCollection.CreateSQLLite();
-            _servicesCollection.RegisterServices();
+            var services = new ServiceCollection();
+            services.CreateSQLLite();
+            services.RegisterServices();
+            _servicesCollection = services;
         }
 
 

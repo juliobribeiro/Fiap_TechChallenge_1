@@ -21,7 +21,7 @@ namespace FIAP._6NETT_GRUPO31.Tests.Infra
             connection.Open();
 
             services.AddDbContext<FIAPContext>(options =>
-            options.UseSqlite(connectionString));
+            options.UseSqlite(connection));
 
         }
     }

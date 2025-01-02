@@ -16,8 +16,7 @@ namespace FIAP._6NETT_GRUPO31.Tests.Services
     [Collection("Test collection")]
     public class ContatoControllerTest
     {
-        private readonly TextFixture _textFixture;
-        private readonly FIAPContext _context;
+        private readonly TextFixture _textFixture;        
         private readonly IContatoApplication _contatoApplication;
         private readonly ContatoController _contatoController;
         public ContatoControllerTest(TextFixture fixture)
@@ -25,7 +24,7 @@ namespace FIAP._6NETT_GRUPO31.Tests.Services
             _textFixture = fixture;
 
             var scope = _textFixture._servicesCollection.BuildServiceProvider().CreateScope();
-            _context = scope.ServiceProvider.GetRequiredService<FIAPContext>();
+            var _context = scope.ServiceProvider.GetRequiredService<FIAPContext>();
             _contatoApplication = scope.ServiceProvider.GetRequiredService<IContatoApplication>();
             _contatoController = new ContatoController(_contatoApplication);
 
@@ -36,6 +35,17 @@ namespace FIAP._6NETT_GRUPO31.Tests.Services
         public async Task ConsultarContatos_ShouldReturnOkResult_WithListOfContatos()
         {
             var contatos = await _contatoController.ConsultarContatos();
+
+            var okResult = Assert.IsType<OkObjectResult>(contatos);
+            var returnedContatos = Assert.IsType<List<ContatoModel>>(okResult.Value);
+        }
+
+        [Theory]
+        [InlineData(11)]
+        [InlineData(12)]
+        public async Task ConsultarContatosPorDDD_ShouldReturnOkResult_WithListOfContatos(int ddd)
+        {
+            var contatos = await _contatoController.ConsultarContatosPorDDD(ddd);
 
             var okResult = Assert.IsType<OkObjectResult>(contatos);
             var returnedContatos = Assert.IsType<List<ContatoModel>>(okResult.Value);
