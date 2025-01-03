@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 using Prometheus;
 
+
 namespace FIAP._6NETT_GRUPO31.Service.Configuration
 {
     public static class ApiConfig
@@ -30,7 +31,9 @@ namespace FIAP._6NETT_GRUPO31.Service.Configuration
             services.AddSwaggerGen(c =>
             {
             });
-            services.UseHttpClientMetrics();
+            services.UseHttpClientMetrics();         
+
+          
         }
 
         public static void UseApiConfiguration(this WebApplication app, IWebHostEnvironment env)
@@ -39,7 +42,7 @@ namespace FIAP._6NETT_GRUPO31.Service.Configuration
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
-            }     
+            }
 
             app.UseMetricServer();
             app.UseHttpMetrics();
