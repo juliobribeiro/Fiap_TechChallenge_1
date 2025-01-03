@@ -91,7 +91,41 @@ namespace FIAP._6NETT_GRUPO31.Tests.Services
 
         }
 
-      
+
+        [Theory]
+        [InlineData(1)]
+        [InlineData(2)]
+        public async Task DeletarContato_ShouldReturnNoContentResult_WhenDeletionIsSuccessful(int id)
+        {
+            // Arrange         
+            // Act
+            var result = await _contatoController.DeletarContato(id);
+
+            // Assert
+            Assert.IsType<NoContentResult>(result);
+        }
+
+        [Fact]
+        public async Task AtualizarContato_ShouldReturnNoContentResult_WhenModelIsValid()
+        {
+            // Arrange
+            var id = 1;
+            var contatoModel = new CadastrarAtualizarContatoModel
+            {
+                Nome = "João",
+                Email = "joao@email.com",
+                Telefone = "123456789",
+                DDD = 11
+            };           
+
+            // Act
+            var result = await _contatoController.AtualizarContato(id, contatoModel);
+
+            // Assert
+            Assert.IsType<NoContentResult>(result);
+        }
+
+
 
 
 
