@@ -33,7 +33,7 @@
     <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Application\FIAP.6NETT-GRUPO31.Application.csproj" />
     <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Domain\FIAP.6NETT-GRUPO31.Domain.csproj" />
     <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Infra.Data\FIAP.6NETT-GRUPO31.Infra.Data.csproj" />
-    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Service\FIAP.6NETT-GRUPO31.Service.csproj" />
+    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Service\FIAP.6NETT-GRUPO31.API.csproj" />
   </ItemGroup>
 
   <ItemGroup>

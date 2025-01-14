@@ -1,16 +1,10 @@
 ﻿using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using FIAP._6NETT_GRUPO31.Infra.Data.Context;
-using FIAP._6NETT_GRUPO31.Service.Controllers;
-using FIAP._6NETT_GRUPO31.Service.Model;
+using FIAP._6NETT_GRUPO31.API.Controllers;
+using FIAP._6NETT_GRUPO31.API.Model;
 using FIAP._6NETT_GRUPO31.Tests.Infra;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FIAP._6NETT_GRUPO31.Tests.Services
 {

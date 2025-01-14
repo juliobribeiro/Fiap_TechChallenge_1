@@ -1,11 +1,6 @@
-﻿using FIAP._6NETT_GRUPO31.Service.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FIAP._6NETT_GRUPO31.API.Model;
 
-namespace FIAP._6NETT_GRUPO31.Service.Tests.Model
+namespace FIAP._6NETT_GRUPO31.API.Tests.Model
 {
     public class ContatoModelTests
     {

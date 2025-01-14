@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace FIAP._6NETT_GRUPO31.Service.Controllers
+namespace FIAP._6NETT_GRUPO31.API.Controllers
 {
     [Route("api/[controller]")]
     public abstract class MainController: ControllerBase

@@ -1,5 +1,5 @@
-﻿using FIAP._6NETT_GRUPO31.Infra.Data.Context;
-using FIAP._6NETT_GRUPO31.Service.Configuration;
+﻿using FIAP._6NETT_GRUPO31.API.Configuration;
+using FIAP._6NETT_GRUPO31.Infra.Data.Context;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;

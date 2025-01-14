@@ -1,4 +1,4 @@
-﻿using FIAP._6NETT_GRUPO31.Service.Model;
+﻿using FIAP._6NETT_GRUPO31.API.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FIAP._6NETT_GRUPO31.Service.Tests.Model
+namespace FIAP._6NETT_GRUPO31.API.Tests.Model
 {
     public class CadastrarAtualizarContatoModelTests
     {
