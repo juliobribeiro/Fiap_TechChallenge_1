@@ -23,13 +23,13 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore .\6NETT-GRUPO31.sln
       
     - name: Build
-      run: dotnet build  
+      run: dotnet build .\6NETT-GRUPO31.sln
 
     - name: Test with the dotnet CLI
-      run: dotnet test
+      run: dotnet test .\6NETT-GRUPO31.sln
 
 
 

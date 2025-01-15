@@ -18,8 +18,12 @@ namespace FIAP._6NETT_GRUPO31.Infra.Data.Tests.Repository
             var options = new DbContextOptionsBuilder<FIAPContext>()
                 .UseInMemoryDatabase(databaseName: "FIAP_6NETTT")
                 .Options;
+            
+            var context = new FIAPContext(options);
+            context.Database.EnsureDeleted();
+            context.Database.EnsureCreated();
 
-            return new FIAPContext(options);
+            return context;
         }
 
         [Fact]
