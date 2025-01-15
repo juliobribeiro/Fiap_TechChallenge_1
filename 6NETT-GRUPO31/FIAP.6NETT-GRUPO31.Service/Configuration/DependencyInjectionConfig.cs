@@ -5,7 +5,7 @@ using FIAP._6NETT_GRUPO31.Infra.Data.Context;
 using FIAP._6NETT_GRUPO31.Infra.Data.Repository;
 using System.ComponentModel.DataAnnotations;
 
-namespace FIAP._6NETT_GRUPO31.Service.Configuration
+namespace FIAP._6NETT_GRUPO31.API.Configuration
 {
     public static class DependencyInjectionConfig
     {

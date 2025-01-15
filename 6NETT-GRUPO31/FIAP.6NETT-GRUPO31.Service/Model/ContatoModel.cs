@@ -1,4 +1,4 @@
-﻿namespace FIAP._6NETT_GRUPO31.Service.Model
+﻿namespace FIAP._6NETT_GRUPO31.API.Model
 {
     public class ContatoModel
     {

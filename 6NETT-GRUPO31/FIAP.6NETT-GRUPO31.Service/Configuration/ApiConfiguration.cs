@@ -9,7 +9,7 @@ using System.Text.Json.Serialization;
 using Prometheus;
 
 
-namespace FIAP._6NETT_GRUPO31.Service.Configuration
+namespace FIAP._6NETT_GRUPO31.API.Configuration
 {
     public static class ApiConfig
     {
