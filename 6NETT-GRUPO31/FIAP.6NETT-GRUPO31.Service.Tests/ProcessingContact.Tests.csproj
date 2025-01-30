@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>FIAP._6NETT_GRUPO31.Domain.Tests</RootNamespace>
+    <RootNamespace>FIAP._6NETT_GRUPO31.API.Tests</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Domain\FIAP.6NETT-GRUPO31.Domain.csproj" />
+    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Service\ProcessingContact.API.csproj" />
   </ItemGroup>
 
   <ItemGroup>

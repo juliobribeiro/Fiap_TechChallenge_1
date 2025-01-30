@@ -32,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Infra.Data\FIAP.6NETT-GRUPO31.Infra.Data.csproj" />
+    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Infra.Data\ProcessingContact.Infra.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

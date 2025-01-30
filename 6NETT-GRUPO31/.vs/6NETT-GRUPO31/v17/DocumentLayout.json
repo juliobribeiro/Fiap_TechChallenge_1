@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\FIAP.6NETT-GRUPO31.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\processingcontact.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\processingcontact.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\FIAP.6NETT-GRUPO31.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.tests\\seeds\\contatos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\FIAP.6NETT-GRUPO31.Tests.csproj|solutionrelative:fiap.6nett-grupo31.tests\\seeds\\contatos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +43,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Dockerfile",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Dockerfile",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Dockerfile",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T00:50:52.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-30T00:35:09.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T00:35:04.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Controllers\\MainController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T00:27:52.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "contatos.json",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Seeds\\contatos.json",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Tests\\Seeds\\contatos.json",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Seeds\\contatos.json",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Tests\\Seeds\\contatos.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-30T00:24:49.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProcessingContact.API.csproj",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-30T00:21:45.577Z",
+              "EditorCaption": ""
             }
           ]
         }

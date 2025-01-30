@@ -30,10 +30,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Application\FIAP.6NETT-GRUPO31.Application.csproj" />
-    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Domain\FIAP.6NETT-GRUPO31.Domain.csproj" />
-    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Infra.Data\FIAP.6NETT-GRUPO31.Infra.Data.csproj" />
-    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Service\FIAP.6NETT-GRUPO31.API.csproj" />
+    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Application\ProcessingContact.Application.csproj" />
+    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Domain\ProcessingContact.Domain.csproj" />
+    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Infra.Data\ProcessingContact.Infra.Data.csproj" />
+    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Service\ProcessingContact.API.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -23,7 +23,7 @@
 	</ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Domain\FIAP.6NETT-GRUPO31.Domain.csproj" />
+    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Domain\ProcessingContact.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

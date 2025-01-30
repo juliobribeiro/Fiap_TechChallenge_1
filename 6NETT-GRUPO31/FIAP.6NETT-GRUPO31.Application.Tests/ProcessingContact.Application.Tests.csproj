@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>FIAP._6NETT_GRUPO31.API.Tests</RootNamespace>
+    <RootNamespace>FIAP._6NETT_GRUPO31.Application.Tests</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -19,11 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Service\FIAP.6NETT-GRUPO31.API.csproj" />
+    <Using Include="Xunit" />
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Xunit" />
+    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Application\ProcessingContact.Application.csproj" />
   </ItemGroup>
 
 </Project>
