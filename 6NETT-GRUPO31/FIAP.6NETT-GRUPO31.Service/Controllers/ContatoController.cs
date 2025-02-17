@@ -2,6 +2,7 @@
 using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using FIAP._6NETT_GRUPO31.API.Model;
 using Microsoft.AspNetCore.Mvc;
+using Contact.WebApi.Core.Controllers;
 
 namespace FIAP._6NETT_GRUPO31.API.Controllers
 {    
@@ -91,89 +92,89 @@ namespace FIAP._6NETT_GRUPO31.API.Controllers
             }
         }
 
-        [HttpPost("/contato")]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> CadastrarContato(CadastrarAtualizarContatoModel contato)
-        {
-            try
-            {
-                if (!ModelState.IsValid) return CustomResponse(ModelState);
+        //[HttpPost("/contato")]
+        //[ProducesResponseType(StatusCodes.Status201Created)]
+        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
+        //public async Task<IActionResult> CadastrarContato(CadastrarAtualizarContatoModel contato)
+        //{
+        //    try
+        //    {
+        //        if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-                var dto = new CadastrarAtualizarContatoDto()
-                {
-                    Nome = contato.Nome,
-                    Email = contato.Email,
-                    Telefone = contato.Telefone,
-                    DDD = contato.DDD
-                };
+        //        var dto = new CadastrarAtualizarContatoDto()
+        //        {
+        //            Nome = contato.Nome,
+        //            Email = contato.Email,
+        //            Telefone = contato.Telefone,
+        //            DDD = contato.DDD
+        //        };
 
-                await _contatoApplication.CadastrarContato(dto);
+        //        await _contatoApplication.CadastrarContato(dto);
 
-                return Created();
-            }
-            catch (Exception ex)
-            {
-                AdicionarErroProcessamento("Erro ao cadastrar o contato");
-                AddExptionErrorMessage(ex);
-                return CustomResponse();
+        //        return Created();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        AdicionarErroProcessamento("Erro ao cadastrar o contato");
+        //        AddExptionErrorMessage(ex);
+        //        return CustomResponse();
 
-            }
-        }
+        //    }
+        //}
 
-        [HttpPut("/contato/{id:int}")]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> AtualizarContato(int id, CadastrarAtualizarContatoModel contato)
-        {
-            try
-            {
-                var dto = new CadastrarAtualizarContatoDto()
-                {
-                    Nome = contato.Nome,
-                    Email = contato.Email,
-                    Telefone = contato.Telefone,
-                    DDD = contato.DDD
-                };
+        //[HttpPut("/contato/{id:int}")]
+        //[ProducesResponseType(StatusCodes.Status204NoContent)]
+        //[ProducesResponseType(StatusCodes.Status404NotFound)]
+        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
+        //public async Task<IActionResult> AtualizarContato(int id, CadastrarAtualizarContatoModel contato)
+        //{
+        //    try
+        //    {
+        //        var dto = new CadastrarAtualizarContatoDto()
+        //        {
+        //            Nome = contato.Nome,
+        //            Email = contato.Email,
+        //            Telefone = contato.Telefone,
+        //            DDD = contato.DDD
+        //        };
 
-                await _contatoApplication.AtualizarContrato(id, dto);
+        //        await _contatoApplication.AtualizarContrato(id, dto);
 
-                return NoContent();
-            }
-            catch (Exception ex)
-            {
-                AdicionarErroProcessamento("Erro ao atualizar o contatos");
-                AddExptionErrorMessage(ex);
-                return CustomResponse();
+        //        return NoContent();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        AdicionarErroProcessamento("Erro ao atualizar o contatos");
+        //        AddExptionErrorMessage(ex);
+        //        return CustomResponse();
 
-            }
-        }
+        //    }
+        //}
 
 
-        [HttpDelete("/contato/{id}")]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> DeletarContato(int id)
-        {
-            try
-            {
-                await _contatoApplication.DeletarContato(id);
-                return NoContent();
-            }
-            catch (Exception ex)
-            {
+        //[HttpDelete("/contato/{id}")]
+        //[ProducesResponseType(StatusCodes.Status204NoContent)]
+        //[ProducesResponseType(StatusCodes.Status404NotFound)]
+        //public async Task<IActionResult> DeletarContato(int id)
+        //{
+        //    try
+        //    {
+        //        await _contatoApplication.DeletarContato(id);
+        //        return NoContent();
+        //    }
+        //    catch (Exception ex)
+        //    {
 
-                AdicionarErroProcessamento("Erro ao deletar o contato");
-                AddExptionErrorMessage(ex);
-                return CustomResponse(); ;
-            }
-        }
+        //        AdicionarErroProcessamento("Erro ao deletar o contato");
+        //        AddExptionErrorMessage(ex);
+        //        return CustomResponse(); ;
+        //    }
+        //}
 
-        private void AddExptionErrorMessage(Exception ex)
-        {
-            if (ex != null && !string.IsNullOrEmpty(ex.Message)) AdicionarErroProcessamento(ex.Message);
-        }
+        //private void AddExptionErrorMessage(Exception ex)
+        //{
+        //    if (ex != null && !string.IsNullOrEmpty(ex.Message)) AdicionarErroProcessamento(ex.Message);
+        //}
     }
 
 }

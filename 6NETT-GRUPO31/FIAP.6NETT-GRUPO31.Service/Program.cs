@@ -10,3 +10,5 @@ var app = builder.Build();
 app.UseApiConfiguration(app.Environment);
 
 app.Run();
+
+public partial class Program { }
