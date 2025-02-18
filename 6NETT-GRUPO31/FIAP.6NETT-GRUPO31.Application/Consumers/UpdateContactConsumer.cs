@@ -1,4 +1,5 @@
 ﻿using Contact.Core.Events;
+using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using MassTransit;
 using System;
 using System.Collections.Generic;
@@ -8,11 +9,18 @@ using System.Threading.Tasks;
 
 namespace FIAP._6NETT_GRUPO31.Application.Consumers
 {
-    public class UpdateContactConsumer : IConsumer<UpdateContactConsumer>
+    public class UpdateContactConsumer : IConsumer<UpdateContactEvent>
     {
-        public Task Consume(ConsumeContext<UpdateContactConsumer> context)
+        private readonly IContatoApplication contatoApplication;
+
+        public UpdateContactConsumer(IContatoApplication contatoApplication)
         {
-            throw new NotImplementedException();
+            this.contatoApplication = contatoApplication;
+        }
+
+        public async Task Consume(ConsumeContext<UpdateContactEvent> context)
+        {
+            await contatoApplication.AtualizarContrato(context.Message.Id, Utils.Utils.MappingContatoEventToContatoDto(context.Message));            
         }
     }
 }

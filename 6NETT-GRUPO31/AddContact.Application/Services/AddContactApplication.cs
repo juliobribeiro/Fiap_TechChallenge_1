@@ -1,6 +1,7 @@
 ﻿using AddContact.Application.Interfaces;
 using Contact.Core.Dto;
 using Contact.Core.Events;
+using FIAP._6NETT_GRUPO31.Domain.Entities;
 using MassTransit;
 using System;
 using System.Collections.Generic;
@@ -19,14 +20,23 @@ namespace AddContact.Application.Services
             _bus = bus;
         }
 
-        public Task<bool> CadastrarContato(CadastrarAtualizarContatoDto dto)
+        public async  Task<bool> CadastrarContato(CadastrarAtualizarContatoDto dto)
         {
             // validar email
 
 
             AddContactEvent contactEvent = new AddContactEvent();
-            _bus.Publish(contactEvent);
-            return Task.FromResult(true);
+            contactEvent.Nome = dto.Nome;
+            contactEvent.Email = dto.Email;
+            contactEvent.Telefone = dto.Telefone;
+            contactEvent.DDD = dto.DDD;
+            await _bus.Publish(contactEvent);
+
+            return true;
+        
         }
+
+        
+
     }
 }

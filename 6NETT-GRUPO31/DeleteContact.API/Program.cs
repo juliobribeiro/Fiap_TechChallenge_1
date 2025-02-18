@@ -1,5 +1,6 @@
 using DeleteContact.Application.Interfaces;
 using DeleteContact.Application.Services;
+using Contact.Core.ServiceBus;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IDeleteContactApplication, DeleteContactApplication>();
+builder.Services.AddRabitMqConfiguration(builder.Configuration);
 
 var app = builder.Build();
 

@@ -11,14 +11,38 @@ services:
       - C:\dados\volumes\sqlserver:/var/opt/mssql/data      
     networks:
       - mynw 
-   
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports: 
+     - 5672:5672
+     - 15672:15672
+    volumes:
+      - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
+      - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
+    networks:
+      - mynw 
+       
   fiap.6nett-grupo31.service:
     image: ${DOCKER_REGISTRY-}fiap6nettgrupo31service
+    depends_on: [sqlserver,rabbitmq]
     build:
       context: .
       dockerfile: FIAP.6NETT-GRUPO31.Service/Dockerfile
     ports: 
       - "8080:8080"
+    networks:
+      - mynw 
+
+  add-contact:
+    image: ${DOCKER_REGISTRY-}addcontactapi
+    depends_on: [sqlserver,rabbitmq]
+    build:
+      context: .
+      dockerfile: AddContact.API/Dockerfile
+    ports: 
+      - "8081:8081"
     networks:
       - mynw 
  
@@ -59,18 +83,6 @@ services:
       - /proc:/host/proc:ro
       - /sys:/host/sys:ro
       - /:/rootfs:ro
-    networks:
-      - mynw 
-
-  rabbitmq:
-    image: rabbitmq:3-management
-    container_name: rabbitmq
-    ports: 
-     - 5672:5672
-     - 15672:15672
-    volumes:
-      - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
-      - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
     networks:
       - mynw 
 

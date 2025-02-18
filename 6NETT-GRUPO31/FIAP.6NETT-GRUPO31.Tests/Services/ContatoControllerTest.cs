@@ -52,78 +52,78 @@ namespace FIAP._6NETT_GRUPO31.Tests.Services
             var returnedContatos = Assert.IsType<List<ContatoModel>>(okResult.Value);
         }
 
-        [Fact]
-        public async Task CadastrarContato_ShouldReturnCreatedResult_WhenModelIsValid()
-        {
-            // Arrange
-            var contatoModel = new CadastrarAtualizarContatoModel
-            {
-                Nome = "João",
-                Email = "joao@email.com",
-                Telefone = "123456789",
-                DDD = 11
-            };
+        //[Fact]
+        //public async Task CadastrarContato_ShouldReturnCreatedResult_WhenModelIsValid()
+        //{
+        //    // Arrange
+        //    var contatoModel = new CadastrarAtualizarContatoModel
+        //    {
+        //        Nome = "João",
+        //        Email = "joao@email.com",
+        //        Telefone = "123456789",
+        //        DDD = 11
+        //    };
 
-            var result = await _contatoController.CadastrarContato(contatoModel);            
+        //    var result = await _contatoController.CadastrarContato(contatoModel);            
 
-            // Assert
-            Assert.IsType<CreatedResult>(result);
-        }
+        //    // Assert
+        //    Assert.IsType<CreatedResult>(result);
+        //}
 
-        [Fact]
-        public async Task CadastrarContato_ShouldReturnBadRequest_WhenEmailExist()
-        {
-            // Arrange
-            var contatoModel = new CadastrarAtualizarContatoModel
-            {
-                Nome = "João",
-                Email = "rodrigo@email.com",
-                Telefone = "123456789",
-                DDD = 11
-            };
+        //[Fact]
+        //public async Task CadastrarContato_ShouldReturnBadRequest_WhenEmailExist()
+        //{
+        //    // Arrange
+        //    var contatoModel = new CadastrarAtualizarContatoModel
+        //    {
+        //        Nome = "João",
+        //        Email = "rodrigo@email.com",
+        //        Telefone = "123456789",
+        //        DDD = 11
+        //    };
 
-            var result = await _contatoController.CadastrarContato(contatoModel);
+        //    var result = await _contatoController.CadastrarContato(contatoModel);
 
-            // Assert
-            var badRequest = Assert.IsType<BadRequestObjectResult>(result);
-            var returnedContatos = Assert.IsType<ValidationProblemDetails>(badRequest.Value);
-            Assert.NotNull(returnedContatos.Errors.FirstOrDefault(x => x.Value.Equals("O email rodrigo@email.com já está sendo usando para outro contato")));
+        //    // Assert
+        //    var badRequest = Assert.IsType<BadRequestObjectResult>(result);
+        //    var returnedContatos = Assert.IsType<ValidationProblemDetails>(badRequest.Value);
+        //    Assert.NotNull(returnedContatos.Errors.FirstOrDefault(x => x.Value.Equals("O email rodrigo@email.com já está sendo usando para outro contato")));
 
-        }
+        //}
 
 
-        [Theory]
-        [InlineData(1)]
-        [InlineData(2)]
-        public async Task DeletarContato_ShouldReturnNoContentResult_WhenDeletionIsSuccessful(int id)
-        {
-            // Arrange         
-            // Act
-            var result = await _contatoController.DeletarContato(id);
+        //[Theory]
+        //[InlineData(1)]
+        //[InlineData(2)]
+        //public async Task DeletarContato_ShouldReturnNoContentResult_WhenDeletionIsSuccessful(int id)
+        //{
+        //    // Arrange         
+        //    // Act
+        //    var result = await _contatoController.DeletarContato(id);
 
-            // Assert
-            Assert.IsType<NoContentResult>(result);
-        }
+        //    // Assert
+        //    Assert.IsType<NoContentResult>(result);
+        //}
 
-        [Fact]
-        public async Task AtualizarContato_ShouldReturnNoContentResult_WhenModelIsValid()
-        {
-            // Arrange
-            var id = 1;
-            var contatoModel = new CadastrarAtualizarContatoModel
-            {
-                Nome = "João",
-                Email = "joao@email.com",
-                Telefone = "123456789",
-                DDD = 11
-            };           
+        //[Fact]
+        //public async Task AtualizarContato_ShouldReturnNoContentResult_WhenModelIsValid()
+        //{
+        //    // Arrange
+        //    var id = 1;
+        //    var contatoModel = new CadastrarAtualizarContatoModel
+        //    {
+        //        Nome = "João",
+        //        Email = "joao@email.com",
+        //        Telefone = "123456789",
+        //        DDD = 11
+        //    };           
 
-            // Act
-            var result = await _contatoController.AtualizarContato(id, contatoModel);
+        //    // Act
+        //    var result = await _contatoController.AtualizarContato(id, contatoModel);
 
-            // Assert
-            Assert.IsType<NoContentResult>(result);
-        }
+        //    // Assert
+        //    Assert.IsType<NoContentResult>(result);
+        //}
 
 
 

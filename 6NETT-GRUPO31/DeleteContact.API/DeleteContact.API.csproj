@@ -5,11 +5,17 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <DockerfileContext>..\6NETT-GRUPO31</DockerfileContext>
+    <UserSecretsId>43421768-b19e-4918-a56f-5fc29f64f88a</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contact.WebApi.Core1\Contact.WebApi.Core.csproj" />
+    <ProjectReference Include="..\DeleteContact.Application\DeleteContact.Application.csproj" />
   </ItemGroup>
 
 </Project>

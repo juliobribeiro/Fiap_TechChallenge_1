@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.3.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contact.Core\Contact.Core.csproj" />
     <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Domain\ProcessingContact.Domain.csproj" />
     <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Infra.Data\ProcessingContact.Infra.Data.csproj" />
   </ItemGroup>

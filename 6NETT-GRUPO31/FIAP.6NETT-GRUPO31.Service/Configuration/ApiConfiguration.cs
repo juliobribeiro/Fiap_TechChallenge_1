@@ -6,7 +6,10 @@ using FIAP._6NETT_GRUPO31.Infra.Data.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
+using Contact.Core.ServiceBus;
 using Prometheus;
+using MassTransit;
+using FIAP._6NETT_GRUPO31.Application.Consumers;
 
 
 namespace FIAP._6NETT_GRUPO31.API.Configuration
@@ -31,9 +34,28 @@ namespace FIAP._6NETT_GRUPO31.API.Configuration
             services.AddSwaggerGen(c =>
             {
             });
-            services.UseHttpClientMetrics();         
+            services.UseHttpClientMetrics();
 
-          
+            services.AddMassTransit(x =>
+            {
+                x.AddConsumer<AddContactConsumer>();
+                x.AddConsumer<UpdateContactConsumer>();
+                x.AddConsumer<DeleteContactConsumer>();
+
+                x.UsingRabbitMq((context, cfg) =>
+                {
+                    //cfg.Host(new Uri("amqp://localhost:5672"), h => {
+                    cfg.Host(new Uri("amqp://localhost:5672"), h =>
+                    {
+                        h.Username("guest");
+                        h.Password("guest");
+                    });
+
+                    cfg.ConfigureEndpoints(context);
+                });
+            });
+
+
         }
 
         public static void UseApiConfiguration(this WebApplication app, IWebHostEnvironment env)

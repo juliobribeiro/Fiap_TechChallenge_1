@@ -1,5 +1,6 @@
 using UpdateContact.Application.Interfaces;
 using UpdateContact.Application.Services;
+using Contact.Core.ServiceBus;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IUpdateContactApplication, UpdateContactApplication>();
+builder.Services.AddRabitMqConfiguration(builder.Configuration);
 
 var app = builder.Build();
 

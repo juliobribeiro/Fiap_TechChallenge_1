@@ -1,4 +1,5 @@
-﻿using FIAP._6NETT_GRUPO31.Application.Dto;
+﻿using Contact.Core.Dto;
+using FIAP._6NETT_GRUPO31.Application.Dto;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;

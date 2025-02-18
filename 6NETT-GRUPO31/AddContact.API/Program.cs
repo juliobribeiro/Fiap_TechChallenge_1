@@ -1,6 +1,6 @@
 using AddContact.Application.Interfaces;
 using AddContact.Application.Services;
-
+using Contact.Core.ServiceBus;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IAddContactApplication, AddContactApplication>();
+builder.Services.AddRabitMqConfiguration(builder.Configuration);
 
 var app = builder.Build();
 

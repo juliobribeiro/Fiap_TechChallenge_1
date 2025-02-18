@@ -7,9 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dto\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\Contact.Core\Contact.Core.csproj" />
+    <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Domain\ProcessingContact.Domain.csproj" />
   </ItemGroup>
 
 </Project>

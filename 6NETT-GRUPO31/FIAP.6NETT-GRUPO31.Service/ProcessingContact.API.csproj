@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Contact.WebApi.Core1\Contact.WebApi.Core.csproj" />
     <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Application\ProcessingContact.Application.csproj" />
     <ProjectReference Include="..\FIAP.6NETT-GRUPO31.Infra.Data\ProcessingContact.Infra.Data.csproj" />
   </ItemGroup>

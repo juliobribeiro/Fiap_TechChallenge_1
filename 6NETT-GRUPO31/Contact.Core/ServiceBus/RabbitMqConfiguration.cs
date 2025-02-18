@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+
 namespace Contact.Core.ServiceBus
 {
     public static class  RabbitMqConfiguration
@@ -9,12 +10,10 @@ namespace Contact.Core.ServiceBus
         public static void AddRabitMqConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddMassTransit(x =>
-            {
-
-                
+            {                
                 x.UsingRabbitMq((context, cfg) =>
                 {
-                    cfg.Host("localhost", "/", h => {
+                    cfg.Host(new Uri("amqp://localhost:5672"), h => {
                         h.Username("guest");
                         h.Password("guest");
                     });
@@ -23,8 +22,6 @@ namespace Contact.Core.ServiceBus
                 });
             });            
 
-        }
-        
-        public static void AddConsumer(this IServiceCollection services)
+        }              
     }
 }
