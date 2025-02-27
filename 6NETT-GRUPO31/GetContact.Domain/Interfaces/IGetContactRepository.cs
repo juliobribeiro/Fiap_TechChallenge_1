@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GetContact.Domain.Interfaces
 {
-    public interface IContatoRepository
+    public interface IGetContactRepository
     {    
         Task<IEnumerable<Contatos>> ConsultaContatos(int ddd);  
         Task<Contatos> ConsultarContatoPorId(int IdContato);

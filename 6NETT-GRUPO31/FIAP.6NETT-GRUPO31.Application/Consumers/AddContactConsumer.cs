@@ -1,9 +1,6 @@
-﻿using Contact.Core.Dto;
+﻿
 using Contact.Core.Events;
-using FIAP._6NETT_GRUPO31.Domain.Entities;
-using FIAP._6NETT_GRUPO31.Domain.Interfaces;
 using MassTransit;
-using FIAP._6NETT_GRUPO31.Application.Utils;
 using FIAP._6NETT_GRUPO31.Application.Interfaces;
 
 namespace FIAP._6NETT_GRUPO31.Application.Consumers

@@ -2,22 +2,20 @@
 using GetContact.Application.Interfaces;
 using GetContact.Domain.Entities;
 using GetContact.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace GetContact.Application.Services
 {
-    public class ContatoApplication : IContatoApplication
+    public class GetContactApplication : IGetContactApplication
     {
         private readonly IGetContactRepository _contatoRepository;
 
-        public ContatoApplication(IGetContactRepository contatoRepository)
+        public GetContactApplication(IGetContactRepository contatoRepository)
         {
             _contatoRepository = contatoRepository;
         }
+
+
              
         public async Task<List<ContatoDto>> ConsultarContatosPorDDD(int ddd)
         {
@@ -42,43 +40,42 @@ namespace GetContact.Application.Services
             var listaContatoDto = new List<ContatoDto>();
 
             foreach (var item in contatos)
-            {
-                ContatoDto dto = new ContatoDto()
-                {
-                    IdContato = item.IdContato,
-                    Nome = item.Nome,
-                    Email = item.Email,
-                    Telefone = item.Telefone,
-                    DDD = item.DDD
-                };
-
-                listaContatoDto.Add(dto);
+            {                
+                listaContatoDto.Add(MappingContatoToContatoDto(item));
             }
 
             return listaContatoDto;
         }
 
-        private Contatos MappingContatoDtoToContato(CadastrarAtualizarContatoDto dto)
+        private ContatoDto MappingContatoToContatoDto(Contatos contatos)
         {
-            var entidadeContato = new Contatos()
-            {
-                Nome = dto.Nome,
-                Email = dto.Email,
-                Telefone = dto.Telefone,
-                DDD = dto.DDD
-            };
+            
+                ContatoDto dto = new ContatoDto()
+                {
+                    IdContato = contatos.IdContato,
+                    Nome = contatos.Nome,
+                    Email = contatos.Email,
+                    Telefone = contatos.Telefone,
+                    DDD = contatos.DDD
+                };
 
-            return entidadeContato;
-        }
+            return dto ;
+        }     
 
-        private async Task<bool> ExisteEmailCadastrado(string email)
+        public async Task<ContatoDto> ConsultarContatosPorEmail(string email)
         {
             var contato = await _contatoRepository.ConsultarContatoPorEmail(email);
+            if(contato != null) return MappingContatoToContatoDto(contato);
 
-            return contato != null;
-
+            return null;
+            
         }
 
-
+        public async Task<ContatoDto> ConsultarContatosPorId(int id)
+        {
+            var contato = await _contatoRepository.ConsultarContatoPorId(id);
+            if(contato != null) return MappingContatoToContatoDto(contato);
+            return null;
+        }
     }
 }

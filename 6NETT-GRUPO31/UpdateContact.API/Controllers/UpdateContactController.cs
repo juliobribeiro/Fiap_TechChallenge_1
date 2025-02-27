@@ -18,7 +18,7 @@ namespace UpdateContact.API.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> AtualizarContato(int id, CadastrarAtualizarContatoDto contato)
+        public async Task<IActionResult> AtualizarContato(int id, [FromForm]CadastrarAtualizarContatoDto contato)
         {
             try
             {

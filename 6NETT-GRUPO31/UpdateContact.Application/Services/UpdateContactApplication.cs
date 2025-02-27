@@ -1,11 +1,8 @@
 ﻿using Contact.Core.Dto;
 using Contact.Core.Events;
 using MassTransit;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using UpdateContact.Application.Interfaces;
 
 namespace UpdateContact.Application.Services
@@ -13,20 +10,63 @@ namespace UpdateContact.Application.Services
     public class UpdateContactApplication : IUpdateContactApplication
     {
         private readonly IBus _bus;
+        private readonly IConfiguration _configuration;
 
-        public UpdateContactApplication(IBus bus)
+        public UpdateContactApplication(IBus bus, IConfiguration configuration)
         {
             _bus = bus;
+            _configuration = configuration;
         }
 
-        public Task<bool> AtualizarContrato(int contatoId, CadastrarAtualizarContatoDto dto)
+        public async Task<bool> AtualizarContrato(int contatoId, CadastrarAtualizarContatoDto dto)
         {
-            //validar contato
+            var contatoUpdate = await GetContatoPorId(contatoId);
+
+            if (contatoUpdate is null) throw new Exception($"Contato com  id:{contatoId} não encontrado");
+
+            if (contatoUpdate.Email != dto.Email)
+            {
+                if (await ExisteEmailCadastrado(dto.Email)) throw new Exception($"O email {dto.Email} já está sendo usando para outro contato");
+            }
 
             UpdateContactEvent updateContactEvent = new UpdateContactEvent();
-            _bus.Publish(updateContactEvent);
+            updateContactEvent.Id = contatoId;
+            updateContactEvent.Email = dto.Email;
+            updateContactEvent.Telefone = dto.Telefone;
+            updateContactEvent.Nome = dto.Nome;
+            updateContactEvent.DDD = dto.DDD;
+            await _bus.Publish(updateContactEvent);
 
-            return Task.FromResult(true);
+            return true;
+        }
+
+
+        private async Task<bool> ExisteEmailCadastrado(string email)
+        {
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
+            var httpResponseMessage = await client.GetAsync($"contatos/email/{email}");
+
+            if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.NoContent)
+                return false;
+
+            return true;
+
+        }
+
+        private async Task<ContatoDto?> GetContatoPorId(int id)
+        {
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
+            var httpResponseMessage = await client.GetAsync($"contatos/id/{id}");
+
+            if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.OK)
+                return JsonConvert.DeserializeObject<ContatoDto>(await httpResponseMessage.Content.ReadAsStringAsync());
+
+            return null;
+
+
+
         }
     }
 }

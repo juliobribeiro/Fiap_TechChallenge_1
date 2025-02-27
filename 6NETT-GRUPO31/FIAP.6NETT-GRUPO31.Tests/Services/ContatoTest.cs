@@ -1,6 +1,7 @@
-﻿using FIAP._6NETT_GRUPO31.API.Controllers;
+﻿using Contact.Core.Dto;
+using FIAP._6NETT_GRUPO31.API.Controllers;
 using FIAP._6NETT_GRUPO31.API.Model;
-using FIAP._6NETT_GRUPO31.Application.Dto;
+
 using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using FIAP._6NETT_GRUPO31.Infra.Data.Context;
 using FIAP._6NETT_GRUPO31.Tests.Infra;

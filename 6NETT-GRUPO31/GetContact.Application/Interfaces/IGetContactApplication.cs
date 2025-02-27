@@ -1,16 +1,14 @@
 ﻿using Contact.Core.Dto;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace GetContact.Application.Interfaces
 {
-    public interface IContatoApplication
+    public interface IGetContactApplication
     {
 
         Task<List<ContatoDto>> ConsultarContatosPorDDD(int ddd);
+        Task<ContatoDto> ConsultarContatosPorEmail(string email);
+        Task<ContatoDto> ConsultarContatosPorId(int id);
         Task<List<ContatoDto>> ConsultarTodosContatos();        
     }
 }
