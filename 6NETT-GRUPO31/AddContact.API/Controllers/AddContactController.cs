@@ -17,7 +17,8 @@ namespace AddContact.API.Controllers
         [HttpPost("/contato")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> CadastrarContato([FromBody] CadastrarAtualizarContatoDto contato)
+        public async Task<IActionResult> CadastrarContato(
+            [FromBody] CadastrarAtualizarContatoDto contato)
         {
             try
             {

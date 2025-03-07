@@ -47,14 +47,9 @@ namespace FIAP._6NETT_GRUPO31.Application.Services
       
         public async Task DeletarContato(int contatoId)
         {
-            var contatoDelete = await _contatoRepository.ConsultarContatoPorId(contatoId);
+            var contatoDelete = await _contatoRepository.ConsultarContatoPorId(contatoId);            
 
-            if (contatoDelete is null) throw new Exception($"Contato com id:{contatoId} não encontrado");
-
-            await _contatoRepository.DeletarContato(contatoDelete);
-            
-
-
+            await _contatoRepository.DeletarContato(contatoDelete);            
         }
 
         private Contatos MappingContatoDtoToContato(CadastrarAtualizarContatoDto dto)

@@ -1,11 +1,6 @@
 ﻿using Contact.Core.Dto;
-using FIAP._6NETT_GRUPO31.API.Controllers;
-using FIAP._6NETT_GRUPO31.API.Model;
-
-using FIAP._6NETT_GRUPO31.Application.Interfaces;
 using FIAP._6NETT_GRUPO31.Infra.Data.Context;
 using FIAP._6NETT_GRUPO31.Tests.Infra;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
@@ -17,9 +12,7 @@ namespace FIAP._6NETT_GRUPO31.Tests.Services
 {
     public class ContatoTest : IntegrationTeste
     {
-        private readonly IntegrationTeste _teste;
-        private readonly IContatoApplication _contatoApplication;
-        private readonly ContatoController _contatoController;
+        private readonly IntegrationTeste _teste;        
         public ContatoTest(WebApplicationFactory<Program> factory) : base(factory)
         {            
             var scope = _servicesCollection.BuildServiceProvider().CreateScope();

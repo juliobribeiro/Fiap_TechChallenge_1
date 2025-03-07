@@ -1,6 +1,9 @@
-﻿using Contact.Core.Events;
+﻿using Contact.Core.Dto;
+using Contact.Core.Events;
 using DeleteContact.Application.Interfaces;
 using MassTransit;
+using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,21 +15,38 @@ namespace DeleteContact.Application.Services
     public class DeleteContactApplication : IDeleteContactApplication
     {
         private readonly IBus _bus;
+        private readonly IConfiguration _configuration;
+        private readonly HttpClient _client;
 
-        public DeleteContactApplication(IBus bus)
+        public DeleteContactApplication(IBus bus, IConfiguration configuration, HttpClient client)
         {
             _bus = bus;
+            _configuration = configuration;
+            _client = client;
         }
 
-        public Task<bool> DeletarContato(int contatoId)
+        public async Task<bool> DeletarContato(int contatoId)
         {
+            var contatoDelete = await GetContatoPorId(contatoId);
 
+            if (contatoDelete is null) throw new Exception($"Contato com id:{contatoId} não encontrado");
 
             DeleteContactEvent deleteContactEvent = new DeleteContactEvent();
             deleteContactEvent.Id = contatoId;
-            _bus.Publish(deleteContactEvent);
+            await _bus.Publish(deleteContactEvent);
 
-            return Task.FromResult(true);
+            return true;
+        }
+
+        private async Task<ContatoDto?> GetContatoPorId(int id)
+        {
+            _client.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
+            var httpResponseMessage = await _client.GetAsync($"contatos/id/{id}");
+
+            if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.OK)
+                return JsonConvert.DeserializeObject<ContatoDto>(await httpResponseMessage.Content.ReadAsStringAsync());
+
+            return null;
         }
     }
 }

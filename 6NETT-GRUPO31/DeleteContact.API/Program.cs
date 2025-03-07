@@ -1,6 +1,7 @@
 using DeleteContact.Application.Interfaces;
 using DeleteContact.Application.Services;
 using Contact.Core.ServiceBus;
+using Contact.WebApi.Core.Util;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +12,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IDeleteContactApplication, DeleteContactApplication>();
+builder.Services.AddHttpClient<IDeleteContactApplication, DeleteContactApplication>()
+    .AddPolicyHandler(RetryExtensions.CreatePolicy(10));
+
 builder.Services.AddRabitMqConfiguration(builder.Configuration);
 
 var app = builder.Build();

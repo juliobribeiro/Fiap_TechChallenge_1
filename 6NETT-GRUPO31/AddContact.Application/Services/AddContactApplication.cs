@@ -16,13 +16,13 @@ namespace AddContact.Application.Services
 {
     public class AddContactApplication : IAddContactApplication
     {
-        private readonly IBus _bus;
-        private readonly IConfiguration _configuration;
+        private readonly IBus _bus;        
+        private readonly HttpClient _httpClient;
 
-        public AddContactApplication(IBus bus, IConfiguration configuration)
+        public AddContactApplication(IBus bus, HttpClient httpClient)
         {
-            _bus = bus;
-            _configuration = configuration;
+            _bus = bus;            
+            _httpClient = httpClient;
         }
 
         public async Task<bool> CadastrarContato(CadastrarAtualizarContatoDto dto)
@@ -41,10 +41,8 @@ namespace AddContact.Application.Services
         }
 
         private async Task<bool> ExisteEmailCadastrado(string email)
-        {
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
-            var httpResponseMessage = await client.GetAsync($"contatos/email/{email}");
+        {            
+            var httpResponseMessage = await _httpClient.GetAsync($"contatos/email/{email}");
 
             if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.NoContent)
                 return false;

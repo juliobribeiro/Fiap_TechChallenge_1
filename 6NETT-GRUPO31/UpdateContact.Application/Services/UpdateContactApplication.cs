@@ -11,11 +11,13 @@ namespace UpdateContact.Application.Services
     {
         private readonly IBus _bus;
         private readonly IConfiguration _configuration;
+        private readonly HttpClient _httpClient;
 
-        public UpdateContactApplication(IBus bus, IConfiguration configuration)
+        public UpdateContactApplication(IBus bus, IConfiguration configuration, HttpClient httpClient)
         {
             _bus = bus;
             _configuration = configuration;
+            _httpClient = httpClient;
         }
 
         public async Task<bool> AtualizarContrato(int contatoId, CadastrarAtualizarContatoDto dto)
@@ -43,9 +45,8 @@ namespace UpdateContact.Application.Services
 
         private async Task<bool> ExisteEmailCadastrado(string email)
         {
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
-            var httpResponseMessage = await client.GetAsync($"contatos/email/{email}");
+            _httpClient.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
+            var httpResponseMessage = await _httpClient.GetAsync($"contatos/email/{email}");
 
             if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.NoContent)
                 return false;
@@ -55,18 +56,14 @@ namespace UpdateContact.Application.Services
         }
 
         private async Task<ContatoDto?> GetContatoPorId(int id)
-        {
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
-            var httpResponseMessage = await client.GetAsync($"contatos/id/{id}");
+        {            
+            _httpClient.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
+            var httpResponseMessage = await _httpClient.GetAsync($"contatos/id/{id}");
 
             if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.OK)
                 return JsonConvert.DeserializeObject<ContatoDto>(await httpResponseMessage.Content.ReadAsStringAsync());
 
             return null;
-
-
-
         }
     }
 }

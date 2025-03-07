@@ -1,6 +1,7 @@
 using UpdateContact.Application.Interfaces;
 using UpdateContact.Application.Services;
 using Contact.Core.ServiceBus;
+using Contact.WebApi.Core.Util;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IUpdateContactApplication, UpdateContactApplication>();
+
+builder.Services.AddHttpClient<IUpdateContactApplication, UpdateContactApplication>()
+    .AddPolicyHandler(RetryExtensions.CreatePolicy(10));
+
 builder.Services.AddRabitMqConfiguration(builder.Configuration);
 
 var app = builder.Build();
