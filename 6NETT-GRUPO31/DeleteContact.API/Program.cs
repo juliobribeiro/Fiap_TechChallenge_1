@@ -12,7 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddHttpClient<IDeleteContactApplication, DeleteContactApplication>()
+builder.Services.AddHttpClient<IDeleteContactApplication, DeleteContactApplication>(
+     options => options.BaseAddress = new Uri(builder.Configuration.GetSection("UrlGetContact").ToString()))
     .AddPolicyHandler(RetryExtensions.CreatePolicy(10));
 
 builder.Services.AddRabitMqConfiguration(builder.Configuration);

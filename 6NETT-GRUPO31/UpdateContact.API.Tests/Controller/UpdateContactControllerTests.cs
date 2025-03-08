@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using UpdateContact.API.Controllers;
 using UpdateContact.Application.Interfaces;
 
-namespace UpdateContact.API.Tests
+namespace UpdateContact.API.Tests.Controller
 {
     public class UpdateContactControllerTests
     {

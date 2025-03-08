@@ -18,10 +18,9 @@ namespace DeleteContact.Application.Services
         private readonly IConfiguration _configuration;
         private readonly HttpClient _client;
 
-        public DeleteContactApplication(IBus bus, IConfiguration configuration, HttpClient client)
+        public DeleteContactApplication(IBus bus, HttpClient client)
         {
-            _bus = bus;
-            _configuration = configuration;
+            _bus = bus;            
             _client = client;
         }
 
@@ -39,8 +38,7 @@ namespace DeleteContact.Application.Services
         }
 
         private async Task<ContatoDto?> GetContatoPorId(int id)
-        {
-            _client.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
+        {            
             var httpResponseMessage = await _client.GetAsync($"contatos/id/{id}");
 
             if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.OK)

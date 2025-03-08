@@ -1,49 +1,41 @@
-Ôªøusing AddContact.Application.Interfaces;
-using AddContact.Application.Services;
 using Contact.Core.Dto;
 using Contact.Core.Events;
-using Contact.Core.TetsUitl;
+using DeleteContact.Application.Interfaces;
+using DeleteContact.Application.Services;
 using MassTransit;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
 using Moq;
 using Moq.Protected;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
+using Newtonsoft.Json;
 
-namespace AddContact.Application.Tests.Interfaces
+namespace DeleteContact.Application.Tests.Interfaces
 {
-    public class IAddContactApplicationTests
+    public class DeleteContactApplicationTests
     {
         private readonly Mock<IBus> mockBus;
-        private readonly AddContactApplication _addContactApplication;
+        private readonly IDeleteContactApplication _deleteContactApplication;
         private readonly Mock<HttpMessageHandler> _httpMessageHandlerMock;
 
-        public IAddContactApplicationTests()
+        public DeleteContactApplicationTests()
         {
-            _httpMessageHandlerMock = new Mock<HttpMessageHandler>();            
+            _httpMessageHandlerMock = new Mock<HttpMessageHandler>();
 
             var httpClient = new HttpClient(_httpMessageHandlerMock.Object);
             httpClient.BaseAddress = new Uri("https://localhost/teste");
 
             mockBus = new Mock<IBus>();
 
-            _addContactApplication = new AddContactApplication(mockBus.Object, httpClient);
+            _deleteContactApplication = new DeleteContactApplication(mockBus.Object, httpClient);
         }
-
-
         [Fact]
-        public async Task CadastrarContato_ShouldReturnTrue_WhenContatoIsSuccessfullyCreated()
+        public async Task DeletarContato_ShouldReturnTrue_WhenContatoIsSuccess()
         {
 
             // Arrange
-            var dto = new CadastrarAtualizarContatoDto
+            int idContato = 1;
+
+            var dto = new ContatoDto
             {
-                Nome = "Jo√£o",
+                Nome = "Jo„o",
                 Email = "joao@email.com",
                 Telefone = "123456789",
                 DDD = 11
@@ -53,31 +45,33 @@ namespace AddContact.Application.Tests.Interfaces
             .Protected()
             .Setup<Task<HttpResponseMessage>>(
                 "SendAsync",
-                ItExpr.Is<HttpRequestMessage>(x => x.RequestUri.AbsoluteUri.EndsWith($"contatos/email/{dto.Email}")),
+                ItExpr.Is<HttpRequestMessage>(x => x.RequestUri.AbsoluteUri.EndsWith($"contatos/id/{idContato}")),
                 ItExpr.IsAny<CancellationToken>())
             .ReturnsAsync(new HttpResponseMessage()
             {
-                StatusCode = System.Net.HttpStatusCode.NoContent
+                StatusCode = System.Net.HttpStatusCode.OK,
+                Content = new StringContent(JsonConvert.SerializeObject(dto))
             });
 
             mockBus.Setup(bus => bus.Publish<AddContactEvent>(It.IsAny<object>(), It.IsAny<CancellationToken>()));
 
             // Act
-            var result = await _addContactApplication.CadastrarContato(dto);
+            var result = await _deleteContactApplication.DeletarContato(idContato);
 
             // Assert
             Assert.True(result);
         }
 
-
         [Fact]
-        public async Task CadastrarContato_ShouldReturnTrue_WhenContatoIsFail()
+        public async Task DeletarContato_ShouldReturnTrue_WhenContatoNotExits()
         {
 
             // Arrange
-            var dto = new CadastrarAtualizarContatoDto
+            int idContato = 1;
+
+            var dto = new ContatoDto
             {
-                Nome = "Jo√£o",
+                Nome = "Jo„o",
                 Email = "joao@email.com",
                 Telefone = "123456789",
                 DDD = 11
@@ -87,20 +81,19 @@ namespace AddContact.Application.Tests.Interfaces
             .Protected()
             .Setup<Task<HttpResponseMessage>>(
                 "SendAsync",
-                ItExpr.Is<HttpRequestMessage>(x => x.RequestUri.AbsoluteUri.EndsWith($"contatos/email/{dto.Email}")),
+                ItExpr.Is<HttpRequestMessage>(x => x.RequestUri.AbsoluteUri.EndsWith($"contatos/id/{idContato}")),
                 ItExpr.IsAny<CancellationToken>())
             .ReturnsAsync(new HttpResponseMessage()
             {
-                StatusCode = System.Net.HttpStatusCode.OK                
+                StatusCode = System.Net.HttpStatusCode.NoContent                
             });
 
             mockBus.Setup(bus => bus.Publish<AddContactEvent>(It.IsAny<object>(), It.IsAny<CancellationToken>()));
 
-            // Act
-            await Assert.ThrowsAsync<Exception>(async () => await _addContactApplication.CadastrarContato(dto));
+            // Act            
+            await Assert.ThrowsAsync<Exception>(async () => await _deleteContactApplication.DeletarContato(idContato));
+
+
         }
-
-
-
     }
 }

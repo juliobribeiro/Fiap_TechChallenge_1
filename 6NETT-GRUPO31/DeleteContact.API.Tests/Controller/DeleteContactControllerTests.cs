@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DeleteContact.API.Tests
+namespace DeleteContact.API.Tests.Controller
 {
 
 

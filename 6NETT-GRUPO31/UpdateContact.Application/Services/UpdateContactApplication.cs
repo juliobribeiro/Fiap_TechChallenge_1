@@ -9,14 +9,12 @@ namespace UpdateContact.Application.Services
 {
     public class UpdateContactApplication : IUpdateContactApplication
     {
-        private readonly IBus _bus;
-        private readonly IConfiguration _configuration;
+        private readonly IBus _bus;        
         private readonly HttpClient _httpClient;
 
-        public UpdateContactApplication(IBus bus, IConfiguration configuration, HttpClient httpClient)
+        public UpdateContactApplication(IBus bus, HttpClient httpClient)
         {
-            _bus = bus;
-            _configuration = configuration;
+            _bus = bus;            
             _httpClient = httpClient;
         }
 
@@ -44,8 +42,7 @@ namespace UpdateContact.Application.Services
 
 
         private async Task<bool> ExisteEmailCadastrado(string email)
-        {
-            _httpClient.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
+        {            
             var httpResponseMessage = await _httpClient.GetAsync($"contatos/email/{email}");
 
             if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.NoContent)
@@ -56,8 +53,7 @@ namespace UpdateContact.Application.Services
         }
 
         private async Task<ContatoDto?> GetContatoPorId(int id)
-        {            
-            _httpClient.BaseAddress = new Uri(_configuration.GetSection("UrlGetContact").Value.ToString());
+        {                        
             var httpResponseMessage = await _httpClient.GetAsync($"contatos/id/{id}");
 
             if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.OK)
