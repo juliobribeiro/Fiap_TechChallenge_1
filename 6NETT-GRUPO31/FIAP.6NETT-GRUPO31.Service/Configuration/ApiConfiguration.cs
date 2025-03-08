@@ -10,6 +10,7 @@ using Contact.Core.ServiceBus;
 using Prometheus;
 using MassTransit;
 using FIAP._6NETT_GRUPO31.Application.Consumers;
+using Contact.Core.Dto;
 
 
 namespace FIAP._6NETT_GRUPO31.API.Configuration
@@ -36,6 +37,8 @@ namespace FIAP._6NETT_GRUPO31.API.Configuration
             });
             services.UseHttpClientMetrics();
 
+            var rabbitMqConfig = configuration.GetSection("RabbitMq").Get<RabbitMqConnection>();
+
             services.AddMassTransit(x =>
             {
                 x.AddConsumer<AddContactConsumer>();
@@ -45,11 +48,11 @@ namespace FIAP._6NETT_GRUPO31.API.Configuration
                 x.UsingRabbitMq((context, cfg) =>
                 {
                     //cfg.Host(new Uri("amqp://localhost:5672"), h => {
-                    cfg.Host(new Uri("amqp://localhost:5672"), h =>
+                    cfg.Host(new Uri($"amqp://{rabbitMqConfig.HostName}:{rabbitMqConfig.Port}"), h =>
                     {
-                        h.Username("guest");
-                        h.Password("guest");
-                    });
+                        h.Username(rabbitMqConfig.UserName);
+                        h.Password(rabbitMqConfig.Password);
+                    });                    
 
                     cfg.ConfigureEndpoints(context);
                 });

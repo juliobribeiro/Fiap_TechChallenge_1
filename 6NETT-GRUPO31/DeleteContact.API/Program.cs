@@ -2,6 +2,7 @@ using DeleteContact.Application.Interfaces;
 using DeleteContact.Application.Services;
 using Contact.Core.ServiceBus;
 using Contact.WebApi.Core.Util;
+using Contact.Core.Dto;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient<IDeleteContactApplication, DeleteContactApplication>(
      options => options.BaseAddress = new Uri(builder.Configuration.GetSection("UrlGetContact").ToString()))
     .AddPolicyHandler(RetryExtensions.CreatePolicy(10));
+
+builder.Services.Configure<RabbitMqConnection>(builder.Configuration.GetSection("RabbitMq"));
 
 builder.Services.AddRabitMqConfiguration(builder.Configuration);
 

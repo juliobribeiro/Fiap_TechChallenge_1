@@ -1,5 +1,6 @@
 using AddContact.Application.Interfaces;
 using AddContact.Application.Services;
+using Contact.Core.Dto;
 using Contact.Core.ServiceBus;
 using Contact.WebApi.Core.Util;
 var builder = WebApplication.CreateBuilder(args);
@@ -14,9 +15,11 @@ builder.Services.AddHttpClient<IAddContactApplication, AddContactApplication>(
     options => options.BaseAddress = new Uri(builder.Configuration.GetSection("UrlGetContact").ToString()))
     .AddPolicyHandler(RetryExtensions.CreatePolicy(10));
 
+builder.Services.Configure<RabbitMqConnection>(builder.Configuration.GetSection("RabbitMq"));
 builder.Services.AddRabitMqConfiguration(builder.Configuration);
 
 var app = builder.Build();
+app.Run();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
