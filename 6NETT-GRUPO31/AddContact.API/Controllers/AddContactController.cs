@@ -33,7 +33,7 @@ namespace AddContact.API.Controllers
                 };
                 await _addContactApplication.CadastrarContato(dto);                
 
-                return Created();
+                return StatusCode(201);
             }
             catch (Exception ex)
             {

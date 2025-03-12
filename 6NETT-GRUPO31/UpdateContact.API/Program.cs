@@ -14,7 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddHttpClient<IUpdateContactApplication, UpdateContactApplication>(
-    options => options.BaseAddress = new Uri(builder.Configuration.GetSection("UrlGetContact").ToString()))
+    options => options.BaseAddress = new Uri(builder.Configuration.GetValue<string>("UrlGetContact")))
     .AddPolicyHandler(RetryExtensions.CreatePolicy(10));
 
 builder.Services.Configure<RabbitMqConnection>(builder.Configuration.GetSection("RabbitMq"));

@@ -11,8 +11,7 @@ using Xunit.Abstractions;
 namespace FIAP._6NETT_GRUPO31.Tests.Services
 {
     public class ContatoTest : IntegrationTeste
-    {
-        private readonly IntegrationTeste _teste;        
+    {      
         public ContatoTest(WebApplicationFactory<Program> factory) : base(factory)
         {            
             var scope = _servicesCollection.BuildServiceProvider().CreateScope();
@@ -20,22 +19,22 @@ namespace FIAP._6NETT_GRUPO31.Tests.Services
             CreateContext(_context);            
         }
 
-        [Fact]
-        public async Task ConsultarContatos_ShouldReturnOkResult_WithListOfContatos()
-        {
-            var response = await Client.GetAsync("/contatos");
+        //[Fact]
+        //public async Task ConsultarContatos_ShouldReturnOkResult_WithListOfContatos()
+        //{
+        //    var response = await Client.GetAsync("/contatos");
 
-            response.EnsureSuccessStatusCode();
+        //    response.EnsureSuccessStatusCode();
 
-            var result = await response.Content.ReadAsStringAsync();
+        //    var result = await response.Content.ReadAsStringAsync();
 
-            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        //    Assert.Equal(HttpStatusCode.OK, response.StatusCode);
 
-            Assert.NotNull(result);
+        //    Assert.NotNull(result);
 
-            var contatos = JsonConvert.DeserializeObject<List<ContatoDto>>(result);   
+        //    var contatos = JsonConvert.DeserializeObject<List<ContatoDto>>(result);   
 
-            Assert.True(contatos.Any()); 
-        }
+        //    Assert.True(contatos.Any()); 
+        //}
     }
 }

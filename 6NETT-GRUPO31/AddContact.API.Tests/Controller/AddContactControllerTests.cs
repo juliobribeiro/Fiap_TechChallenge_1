@@ -42,7 +42,7 @@ namespace AddContact.API.Tests.Controller
             var result = await _controller.CadastrarContato(contatoModel);
 
             // Assert
-            Assert.IsType<CreatedResult>(result);
+            Assert.IsType<StatusCodeResult>(result);
         }
 
 

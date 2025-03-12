@@ -2,7 +2,6 @@
 using AddContact.Application.Services;
 using Contact.Core.Dto;
 using Contact.Core.Events;
-using Contact.Core.TetsUitl;
 using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
