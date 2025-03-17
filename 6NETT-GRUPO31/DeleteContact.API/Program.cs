@@ -3,6 +3,7 @@ using DeleteContact.Application.Services;
 using Contact.Core.ServiceBus;
 using Contact.WebApi.Core.Util;
 using Contact.Core.Dto;
+using Prometheus;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.UseHttpClientMetrics();
 
 builder.Services.AddHttpClient<IDeleteContactApplication, DeleteContactApplication>(
      options => options.BaseAddress = new Uri(builder.Configuration.GetValue<string>("UrlGetContact")))
@@ -24,13 +26,13 @@ builder.Services.AddRabitMqConfiguration(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
+app.UseMetricServer();
+app.UseHttpMetrics();
+
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

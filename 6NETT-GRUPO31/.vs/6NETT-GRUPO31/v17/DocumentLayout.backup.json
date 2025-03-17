@@ -3,60 +3,64 @@
   "WorkspaceRootPath": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3CEFCFB-6D69-40E6-A579-7248CF14167E}|AddContact.Tests\\AddContact.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.tests\\services\\addcontacttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3CEFCFB-6D69-40E6-A579-7248CF14167E}|AddContact.Tests\\AddContact.Tests.csproj|solutionrelative:addcontact.tests\\services\\addcontacttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\updatecontact.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|solutionrelative:updatecontact.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B99EE015-C711-4433-9B71-32BCECBDF199}|AddContact.Application.Tests\\AddContact.Application.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.application.tests\\interfaces\\iaddcontactapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B99EE015-C711-4433-9B71-32BCECBDF199}|AddContact.Application.Tests\\AddContact.Application.Tests.csproj|solutionrelative:addcontact.application.tests\\interfaces\\iaddcontactapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{723F69BC-D26D-401D-95D7-433E9D52F7F0}|Contact.Core\\Contact.Core.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\contact.core\\tetsuitl\\httpmessagehandlermock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{723F69BC-D26D-401D-95D7-433E9D52F7F0}|Contact.Core\\Contact.Core.csproj|solutionrelative:contact.core\\tetsuitl\\httpmessagehandlermock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3CEFCFB-6D69-40E6-A579-7248CF14167E}|AddContact.Tests\\AddContact.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.tests\\infra\\mywebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3CEFCFB-6D69-40E6-A579-7248CF14167E}|AddContact.Tests\\AddContact.Tests.csproj|solutionrelative:addcontact.tests\\infra\\mywebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.tests\\services\\contatotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|solutionrelative:fiap.6nett-grupo31.tests\\services\\contatotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD78E36-77BD-44E1-A4B6-640399C87671}|AddContact.API.Tests\\AddContact.API.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.api.tests\\controller\\addcontactcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD78E36-77BD-44E1-A4B6-640399C87671}|AddContact.API.Tests\\AddContact.API.Tests.csproj|solutionrelative:addcontact.api.tests\\controller\\addcontactcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.api\\controllers\\addcontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|solutionrelative:addcontact.api\\controllers\\addcontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|solutionrelative:addcontact.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.tests\\services\\contatocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|solutionrelative:fiap.6nett-grupo31.tests\\services\\contatocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.tests\\infra\\integrationteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|solutionrelative:fiap.6nett-grupo31.tests\\infra\\integrationteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\configuration\\apiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\configuration\\apiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\updatecontact.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|solutionrelative:updatecontact.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{037FF112-298B-4702-A456-F991E247BF38}|DeleteContact.API\\DeleteContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\deletecontact.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{037FF112-298B-4702-A456-F991E247BF38}|DeleteContact.API\\DeleteContact.API.csproj|solutionrelative:deletecontact.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B99EE015-C711-4433-9B71-32BCECBDF199}|AddContact.Application.Tests\\AddContact.Application.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.application.tests\\addcontact.application.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B99EE015-C711-4433-9B71-32BCECBDF199}|AddContact.Application.Tests\\AddContact.Application.Tests.csproj|solutionrelative:addcontact.application.tests\\addcontact.application.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|solutionrelative:addcontact.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.api\\addcontact.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|solutionrelative:addcontact.api\\addcontact.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\ProcessingContact.Application.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application\\consumers\\deletecontactconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\ProcessingContact.Application.csproj|solutionrelative:fiap.6nett-grupo31.application\\consumers\\deletecontactconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\updatecontact.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|solutionrelative:updatecontact.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\updatecontact.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|solutionrelative:updatecontact.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037FF112-298B-4702-A456-F991E247BF38}|DeleteContact.API\\DeleteContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\deletecontact.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{037FF112-298B-4702-A456-F991E247BF38}|DeleteContact.API\\DeleteContact.API.csproj|solutionrelative:deletecontact.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037FF112-298B-4702-A456-F991E247BF38}|DeleteContact.API\\DeleteContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\deletecontact.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{037FF112-298B-4702-A456-F991E247BF38}|DeleteContact.API\\DeleteContact.API.csproj|solutionrelative:deletecontact.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -67,172 +71,20 @@
       "RelativeMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|solutionrelative:addcontact.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.tests\\infra\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|solutionrelative:fiap.6nett-grupo31.tests\\infra\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.tests\\infra\\createdbsqltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|solutionrelative:fiap.6nett-grupo31.tests\\infra\\createdbsqltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.tests\\processingcontact.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|solutionrelative:fiap.6nett-grupo31.tests\\processingcontact.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\ProcessingContact.Application.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\consumers\\addcontactconsumertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\ProcessingContact.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\consumers\\addcontactconsumertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\processingcontact.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\processingcontact.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{1035FEA7-FAC1-4D12-8F8F-82318D064FED}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{037FF112-298B-4702-A456-F991E247BF38}|DeleteContact.API\\DeleteContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\deletecontact.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{037FF112-298B-4702-A456-F991E247BF38}|DeleteContact.API\\DeleteContact.API.csproj|solutionrelative:deletecontact.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\getcontact.fnc\\deletecontactdlq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|solutionrelative:getcontact.fnc\\deletecontactdlq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\getcontact.fnc\\addcontactdlq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|solutionrelative:getcontact.fnc\\addcontactdlq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\getcontact.fnc\\updatecontactdlq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|solutionrelative:getcontact.fnc\\updatecontactdlq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\getcontact.fnc\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|solutionrelative:getcontact.fnc\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\getcontact.fnc\\getcontactbyemailfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|solutionrelative:getcontact.fnc\\getcontactbyemailfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\configuration\\apiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\configuration\\apiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\ProcessingContact.Application.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application\\consumers\\addcontactconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\ProcessingContact.Application.csproj|solutionrelative:fiap.6nett-grupo31.application\\consumers\\addcontactconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\ProcessingContact.Application.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application\\services\\contatoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\ProcessingContact.Application.csproj|solutionrelative:fiap.6nett-grupo31.application\\services\\contatoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\ProcessingContact.Application.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application\\interfaces\\icontatoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\ProcessingContact.Application.csproj|solutionrelative:fiap.6nett-grupo31.application\\interfaces\\icontatoapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\updatecontact.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|solutionrelative:updatecontact.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\updatecontact.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|solutionrelative:updatecontact.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{037FF112-298B-4702-A456-F991E247BF38}|DeleteContact.API\\DeleteContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\deletecontact.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{037FF112-298B-4702-A456-F991E247BF38}|DeleteContact.API\\DeleteContact.API.csproj|solutionrelative:deletecontact.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\addcontact.api\\addcontact.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{7560E7DF-8CA1-4EA1-9903-C673DE6F08FE}|AddContact.API\\AddContact.API.csproj|solutionrelative:addcontact.api\\addcontact.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\ProcessingContact.Application.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\utils\\utilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\ProcessingContact.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\utils\\utilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\ProcessingContact.Application.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\consumers\\updatecontactconsumertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\ProcessingContact.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\consumers\\updatecontactconsumertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\ProcessingContact.Application.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\consumers\\deletecontactconsumertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\ProcessingContact.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\consumers\\deletecontactconsumertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\ProcessingContact.Application.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A68361ED-18B7-4EFC-9CEE-CC1FD2B2DB33}|FIAP.6NETT-GRUPO31.Application\\ProcessingContact.Application.csproj|solutionrelative:fiap.6nett-grupo31.application\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\ProcessingContact.Application.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.application.tests\\interfaces\\icontratoapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD6F90F6-51E2-4BBD-913D-DCB61E72140C}|FIAP.6NETT-GRUPO31.Application.Tests\\ProcessingContact.Application.Tests.csproj|solutionrelative:fiap.6nett-grupo31.application.tests\\interfaces\\icontratoapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\ProcessingContact.Domain.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.domain.tests\\entities\\contatostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D5003D-7043-4D15-BF9A-A2E04E622997}|FIAP.6NETT-GRUPO31.Domain.Tests\\ProcessingContact.Domain.Tests.csproj|solutionrelative:fiap.6nett-grupo31.domain.tests\\entities\\contatostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.tests\\infra\\textfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79ED41E5-8685-410A-8C73-1003941A66A7}|FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj|solutionrelative:fiap.6nett-grupo31.tests\\infra\\textfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\updatecontact.api\\controllers\\updatecontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47EC2ED9-AA59-4265-9409-6F437E59DADC}|UpdateContact.API\\UpdateContact.API.csproj|solutionrelative:updatecontact.api\\controllers\\updatecontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D2D58E6-9C01-46EB-A08E-F89C83B233E5}|DeleteContact.Application.Tests\\DeleteContact.Application.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\deletecontact.application.tests\\interfaces\\deletecontactapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D2D58E6-9C01-46EB-A08E-F89C83B233E5}|DeleteContact.Application.Tests\\DeleteContact.Application.Tests.csproj|solutionrelative:deletecontact.application.tests\\interfaces\\deletecontactapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA854E1C-13BC-4441-8314-8A85F324EB4D}|UpdateContact.Application.Tests\\UpdateContact.Application.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\updatecontact.application.tests\\interfaces\\iupdatecontactapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA854E1C-13BC-4441-8314-8A85F324EB4D}|UpdateContact.Application.Tests\\UpdateContact.Application.Tests.csproj|solutionrelative:updatecontact.application.tests\\interfaces\\iupdatecontactapplicationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61B3B3ED-D553-46DB-9771-F9B3D211C359}|GetContact.Application\\GetContact.Application.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\getcontact.application\\services\\getcontactapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B3B3ED-D553-46DB-9771-F9B3D211C359}|GetContact.Application\\GetContact.Application.csproj|solutionrelative:getcontact.application\\services\\getcontactapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\getcontact.fnc\\getcontactsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|solutionrelative:getcontact.fnc\\getcontactsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\getcontact.fnc\\getcontactbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|solutionrelative:getcontact.fnc\\getcontactbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\getcontact.fnc\\getcontatcsbyddd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7AAF8-DF09-44F0-AA44-C3AC6A0EA008}|GetContact.FNC\\GetContact.FNC.csproj|solutionrelative:getcontact.fnc\\getcontatcsbyddd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E008C1DD-B07C-4822-9E5F-9278FB29E0DD}|UpdateContact.Application\\UpdateContact.Application.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\updatecontact.application\\interfaces\\iupdatecontactapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E008C1DD-B07C-4822-9E5F-9278FB29E0DD}|UpdateContact.Application\\UpdateContact.Application.csproj|solutionrelative:updatecontact.application\\interfaces\\iupdatecontactapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E008C1DD-B07C-4822-9E5F-9278FB29E0DD}|UpdateContact.Application\\UpdateContact.Application.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\updatecontact.application\\services\\updatecontactapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E008C1DD-B07C-4822-9E5F-9278FB29E0DD}|UpdateContact.Application\\UpdateContact.Application.csproj|solutionrelative:updatecontact.application\\services\\updatecontactapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service\\model\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70F40652-95BD-485D-B20D-6F37C5564FB4}|FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj|solutionrelative:fiap.6nett-grupo31.service\\model\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{095CB4C2-0772-46E1-84E3-CCE452D6D301}|FIAP.6NETT-GRUPO31.Service.Tests\\ProcessingContact.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\fiap.6nett-grupo31.service.tests\\model\\contatomodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{095CB4C2-0772-46E1-84E3-CCE452D6D301}|FIAP.6NETT-GRUPO31.Service.Tests\\ProcessingContact.Tests.csproj|solutionrelative:fiap.6nett-grupo31.service.tests\\model\\contatomodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30CB7EDB-9317-47A7-94EC-487405908F55}|DeleteContact.API.Tests\\DeleteContact.API.Tests.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\deletecontact.api.tests\\controller\\deletecontactcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30CB7EDB-9317-47A7-94EC-487405908F55}|DeleteContact.API.Tests\\DeleteContact.API.Tests.csproj|solutionrelative:deletecontact.api.tests\\controller\\deletecontactcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7A95F34-421D-47C6-AA85-E66B2BECC2EA}|DeleteContact.Application\\DeleteContact.Application.csproj|c:\\github\\fase03\\fiap_techchallenge_1\\6nett-grupo31\\deletecontact.application\\deletecontact.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A7A95F34-421D-47C6-AA85-E66B2BECC2EA}|DeleteContact.Application\\DeleteContact.Application.csproj|solutionrelative:deletecontact.application\\deletecontact.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\prometheus.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prometheus.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -242,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -254,445 +106,244 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HttpMessageHandlerMock.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\Contact.Core\\TetsUitl\\HttpMessageHandlerMock.cs",
-              "RelativeDocumentMoniker": "Contact.Core\\TetsUitl\\HttpMessageHandlerMock.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\Contact.Core\\TetsUitl\\HttpMessageHandlerMock.cs",
-              "RelativeToolTip": "Contact.Core\\TetsUitl\\HttpMessageHandlerMock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:59:32.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyWebApplicationFactory.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.Tests\\Infra\\MyWebApplicationFactory.cs",
-              "RelativeDocumentMoniker": "AddContact.Tests\\Infra\\MyWebApplicationFactory.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.Tests\\Infra\\MyWebApplicationFactory.cs",
-              "RelativeToolTip": "AddContact.Tests\\Infra\\MyWebApplicationFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:25:23.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddContactTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.Tests\\Services\\AddContactTests.cs",
-              "RelativeDocumentMoniker": "AddContact.Tests\\Services\\AddContactTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.Tests\\Services\\AddContactTests.cs",
-              "RelativeToolTip": "AddContact.Tests\\Services\\AddContactTests.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAhwB0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:24:07.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddContactControllerTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API.Tests\\Controller\\AddContactControllerTests.cs",
-              "RelativeDocumentMoniker": "AddContact.API.Tests\\Controller\\AddContactControllerTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API.Tests\\Controller\\AddContactControllerTests.cs",
-              "RelativeToolTip": "AddContact.API.Tests\\Controller\\AddContactControllerTests.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T21:54:09.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContatoTest.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Services\\ContatoTest.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Tests\\Services\\ContatoTest.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Services\\ContatoTest.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Tests\\Services\\ContatoTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:00:37.268Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AddContactController.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\Controllers\\AddContactController.cs",
-              "RelativeDocumentMoniker": "AddContact.API\\Controllers\\AddContactController.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\Controllers\\AddContactController.cs",
-              "RelativeToolTip": "AddContact.API\\Controllers\\AddContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:33:39.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\Program.cs",
-              "RelativeDocumentMoniker": "AddContact.API\\Program.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\Program.cs",
-              "RelativeToolTip": "AddContact.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:36:28.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAddContactApplicationTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.Application.Tests\\Interfaces\\IAddContactApplicationTests.cs",
-              "RelativeDocumentMoniker": "AddContact.Application.Tests\\Interfaces\\IAddContactApplicationTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.Application.Tests\\Interfaces\\IAddContactApplicationTests.cs",
-              "RelativeToolTip": "AddContact.Application.Tests\\Interfaces\\IAddContactApplicationTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T11:07:07.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ContatoControllerTest.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Services\\ContatoControllerTest.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Tests\\Services\\ContatoControllerTest.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Services\\ContatoControllerTest.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Tests\\Services\\ContatoControllerTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:25:26.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IntegrationTeste.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Infra\\IntegrationTeste.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Tests\\Infra\\IntegrationTeste.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Infra\\IntegrationTeste.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Tests\\Infra\\IntegrationTeste.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:00:26.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Program.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Program.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Program.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:47:57.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\Program.cs",
-              "RelativeDocumentMoniker": "UpdateContact.API\\Program.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\Program.cs",
-              "RelativeToolTip": "UpdateContact.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:49:15.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\Program.cs",
-              "RelativeDocumentMoniker": "DeleteContact.API\\Program.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\Program.cs",
-              "RelativeToolTip": "DeleteContact.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:36:25.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddContact.Application.Tests.csproj",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.Application.Tests\\AddContact.Application.Tests.csproj",
-              "RelativeDocumentMoniker": "AddContact.Application.Tests\\AddContact.Application.Tests.csproj",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.Application.Tests\\AddContact.Application.Tests.csproj",
-              "RelativeToolTip": "AddContact.Application.Tests\\AddContact.Application.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-08T13:34:51.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "AddContact.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\appsettings.Development.json",
-              "RelativeToolTip": "AddContact.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T19:49:48.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\appsettings.json",
-              "RelativeDocumentMoniker": "AddContact.API\\appsettings.json",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\appsettings.json",
-              "RelativeToolTip": "AddContact.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T19:49:45.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Infra\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Tests\\Infra\\DbInitializer.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Infra\\DbInitializer.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Tests\\Infra\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:00:24.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateDBSqlTest.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Infra\\CreateDBSqlTest.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Tests\\Infra\\CreateDBSqlTest.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Infra\\CreateDBSqlTest.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Tests\\Infra\\CreateDBSqlTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:00:21.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProcessingContact.Tests.csproj",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Tests\\ProcessingContact.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-12T21:26:27.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ContatoApplication.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Services\\ContatoApplication.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Services\\ContatoApplication.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Services\\ContatoApplication.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Services\\ContatoApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:02:52.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AddContactConsumer.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Consumers\\AddContactConsumer.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Consumers\\AddContactConsumer.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Consumers\\AddContactConsumer.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Consumers\\AddContactConsumer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:01:46.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\Dockerfile",
-              "RelativeDocumentMoniker": "DeleteContact.API\\Dockerfile",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\Dockerfile",
-              "RelativeToolTip": "DeleteContact.API\\Dockerfile",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-08T14:09:21.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProcessingContact.API.csproj",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\ProcessingContact.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-10T21:54:48.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AddContactConsumerTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\AddContactConsumerTests.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\AddContactConsumerTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\AddContactConsumerTests.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\AddContactConsumerTests.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwC8AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:15:39.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AddContactDLQ.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\AddContactDLQ.cs",
-              "RelativeDocumentMoniker": "GetContact.FNC\\AddContactDLQ.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\AddContactDLQ.cs",
-              "RelativeToolTip": "GetContact.FNC\\AddContactDLQ.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T20:56:23.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UpdateContactDLQ.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\UpdateContactDLQ.cs",
-              "RelativeDocumentMoniker": "GetContact.FNC\\UpdateContactDLQ.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\UpdateContactDLQ.cs",
-              "RelativeToolTip": "GetContact.FNC\\UpdateContactDLQ.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:00:22.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Dockerfile",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Dockerfile",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Dockerfile",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-09T18:14:34.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "local.settings.json",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\local.settings.json",
-              "RelativeDocumentMoniker": "GetContact.FNC\\local.settings.json",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\local.settings.json",
-              "RelativeToolTip": "GetContact.FNC\\local.settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T20:56:28.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowEQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-03-08T13:57:01.931Z"
+              "WhenOpened": "2025-03-16T12:31:44.043Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DeleteContactDLQ.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\DeleteContactDLQ.cs",
-              "RelativeDocumentMoniker": "GetContact.FNC\\DeleteContactDLQ.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\DeleteContactDLQ.cs",
-              "RelativeToolTip": "GetContact.FNC\\DeleteContactDLQ.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\Program.cs",
+              "RelativeDocumentMoniker": "AddContact.API\\Program.cs",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\Program.cs",
+              "RelativeToolTip": "AddContact.API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:01:11.211Z"
+              "WhenOpened": "2025-03-16T12:23:10.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "GetContactByEmailFunction.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\GetContactByEmailFunction.cs",
-              "RelativeDocumentMoniker": "GetContact.FNC\\GetContactByEmailFunction.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\GetContactByEmailFunction.cs",
-              "RelativeToolTip": "GetContact.FNC\\GetContactByEmailFunction.cs",
+              "DocumentIndex": 5,
+              "Title": "AddContact.API.csproj",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\AddContact.API.csproj",
+              "RelativeDocumentMoniker": "AddContact.API\\AddContact.API.csproj",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\AddContact.API.csproj",
+              "RelativeToolTip": "AddContact.API\\AddContact.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T14:10:09.037Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-16T12:43:03.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IContatoApplication.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Interfaces\\IContatoApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\Program.cs",
+              "RelativeDocumentMoniker": "DeleteContact.API\\Program.cs",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\Program.cs",
+              "RelativeToolTip": "DeleteContact.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:02:51.88Z"
+              "WhenOpened": "2025-03-16T12:23:15.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Program.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Program.cs",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Program.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:40:52.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ApiConfiguration.cs",
               "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Configuration\\ApiConfiguration.cs",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Configuration\\ApiConfiguration.cs",
               "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Configuration\\ApiConfiguration.cs",
               "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Configuration\\ApiConfiguration.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAYwDYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwD0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:48:03.228Z"
+              "WhenOpened": "2025-03-16T12:23:37.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "UpdateContact.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\appsettings.Development.json",
-              "RelativeToolTip": "UpdateContact.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T19:57:52.902Z"
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\Program.cs",
+              "RelativeDocumentMoniker": "UpdateContact.API\\Program.cs",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\Program.cs",
+              "RelativeToolTip": "UpdateContact.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:23:22.369Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 7,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-03-16T12:55:10.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-16T12:55:39.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "prometheus.yml",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\prometheus.yml",
+              "RelativeDocumentMoniker": "prometheus.yml",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\prometheus.yml",
+              "RelativeToolTip": "prometheus.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-03-16T12:31:05.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteContactConsumer.cs",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Consumers\\DeleteContactConsumer.cs",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Consumers\\DeleteContactConsumer.cs",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Consumers\\DeleteContactConsumer.cs",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Consumers\\DeleteContactConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T13:18:42.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\appsettings.json",
               "RelativeDocumentMoniker": "UpdateContact.API\\appsettings.json",
               "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\appsettings.json",
               "RelativeToolTip": "UpdateContact.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T19:57:56.606Z"
+              "WhenOpened": "2025-03-16T12:48:57.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "UpdateContact.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\appsettings.Development.json",
+              "RelativeToolTip": "UpdateContact.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T12:58:45.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\appsettings.json",
               "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\appsettings.json",
               "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\appsettings.json",
               "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T19:57:03.627Z"
+              "WhenOpened": "2025-03-16T12:48:51.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 13,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\Dockerfile",
+              "RelativeDocumentMoniker": "DeleteContact.API\\Dockerfile",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\Dockerfile",
+              "RelativeToolTip": "DeleteContact.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-16T12:54:06.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\appsettings.json",
+              "RelativeDocumentMoniker": "DeleteContact.API\\appsettings.json",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\appsettings.json",
+              "RelativeToolTip": "DeleteContact.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T12:48:27.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\appsettings.json",
+              "RelativeDocumentMoniker": "AddContact.API\\appsettings.json",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\appsettings.json",
+              "RelativeToolTip": "AddContact.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T12:43:27.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "AddContact.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\appsettings.Development.json",
+              "RelativeToolTip": "AddContact.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T12:43:30.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\appsettings.Development.json",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\appsettings.Development.json",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T12:49:05.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "DeleteContact.API\\appsettings.Development.json",
@@ -700,261 +351,19 @@
               "RelativeToolTip": "DeleteContact.API\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T19:57:31.859Z"
+              "WhenOpened": "2025-03-16T12:48:31.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "AddContact.API.http",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\AddContact.API.http",
-              "RelativeDocumentMoniker": "AddContact.API\\AddContact.API.http",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\AddContact.API\\AddContact.API.http",
-              "RelativeToolTip": "AddContact.API\\AddContact.API.http",
+              "DocumentIndex": 19,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Dockerfile",
+              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Dockerfile",
+              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Dockerfile",
+              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-03-08T19:49:45.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "DeleteContactConsumerTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\DeleteContactConsumerTests.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\DeleteContactConsumerTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\DeleteContactConsumerTests.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\DeleteContactConsumerTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:15:45.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UpdateContactConsumerTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\UpdateContactConsumerTests.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\UpdateContactConsumerTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\UpdateContactConsumerTests.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\Consumers\\UpdateContactConsumerTests.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwCMAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:15:52.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "UtilsTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Utils\\UtilsTests.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\Utils\\UtilsTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Utils\\UtilsTests.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\Utils\\UtilsTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:03:51.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Utils\\Utils.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application\\Utils\\Utils.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application\\Utils\\Utils.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application\\Utils\\Utils.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:03:17.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ContatosTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Domain.Tests\\Entities\\ContatosTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:10:15.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IContratoApplicationTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Interfaces\\IContratoApplicationTests.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Application.Tests\\Interfaces\\IContratoApplicationTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Application.Tests\\Interfaces\\IContratoApplicationTests.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Application.Tests\\Interfaces\\IContratoApplicationTests.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:02:37.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "TextFixture.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Infra\\TextFixture.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Tests\\Infra\\TextFixture.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Tests\\Infra\\TextFixture.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Tests\\Infra\\TextFixture.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:00:28.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "UpdateContactController.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\Controllers\\UpdateContactController.cs",
-              "RelativeDocumentMoniker": "UpdateContact.API\\Controllers\\UpdateContactController.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.API\\Controllers\\UpdateContactController.cs",
-              "RelativeToolTip": "UpdateContact.API\\Controllers\\UpdateContactController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T19:00:09.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "GetContactApplication.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.Application\\Services\\GetContactApplication.cs",
-              "RelativeDocumentMoniker": "GetContact.Application\\Services\\GetContactApplication.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.Application\\Services\\GetContactApplication.cs",
-              "RelativeToolTip": "GetContact.Application\\Services\\GetContactApplication.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T14:10:18.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "GetContactsFunction.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\GetContactsFunction.cs",
-              "RelativeDocumentMoniker": "GetContact.FNC\\GetContactsFunction.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\GetContactsFunction.cs",
-              "RelativeToolTip": "GetContact.FNC\\GetContactsFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T14:10:06.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "GetContactById.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\GetContactById.cs",
-              "RelativeDocumentMoniker": "GetContact.FNC\\GetContactById.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\GetContactById.cs",
-              "RelativeToolTip": "GetContact.FNC\\GetContactById.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T14:10:05.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "IUpdateContactApplicationTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.Application.Tests\\Interfaces\\IUpdateContactApplicationTests.cs",
-              "RelativeDocumentMoniker": "UpdateContact.Application.Tests\\Interfaces\\IUpdateContactApplicationTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.Application.Tests\\Interfaces\\IUpdateContactApplicationTests.cs",
-              "RelativeToolTip": "UpdateContact.Application.Tests\\Interfaces\\IUpdateContactApplicationTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIAwwB8AAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:48:29.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "DeleteContactApplicationTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.Application.Tests\\Interfaces\\DeleteContactApplicationTests.cs",
-              "RelativeDocumentMoniker": "DeleteContact.Application.Tests\\Interfaces\\DeleteContactApplicationTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.Application.Tests\\Interfaces\\DeleteContactApplicationTests.cs",
-              "RelativeToolTip": "DeleteContact.Application.Tests\\Interfaces\\DeleteContactApplicationTests.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:34:11.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "GetContatcsByDDD.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\GetContatcsByDDD.cs",
-              "RelativeDocumentMoniker": "GetContact.FNC\\GetContatcsByDDD.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\GetContact.FNC\\GetContatcsByDDD.cs",
-              "RelativeToolTip": "GetContact.FNC\\GetContatcsByDDD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T14:10:03.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "UpdateContactApplication.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.Application\\Services\\UpdateContactApplication.cs",
-              "RelativeDocumentMoniker": "UpdateContact.Application\\Services\\UpdateContactApplication.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.Application\\Services\\UpdateContactApplication.cs",
-              "RelativeToolTip": "UpdateContact.Application\\Services\\UpdateContactApplication.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:48:54.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "IUpdateContactApplication.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.Application\\Interfaces\\IUpdateContactApplication.cs",
-              "RelativeDocumentMoniker": "UpdateContact.Application\\Interfaces\\IUpdateContactApplication.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\UpdateContact.Application\\Interfaces\\IUpdateContactApplication.cs",
-              "RelativeToolTip": "UpdateContact.Application\\Interfaces\\IUpdateContactApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:48:51.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "ContatoModel.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Model\\ContatoModel.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service\\Model\\ContatoModel.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service\\Model\\ContatoModel.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service\\Model\\ContatoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:46:01.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "ContatoModelTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service.Tests\\Model\\ContatoModelTests.cs",
-              "RelativeDocumentMoniker": "FIAP.6NETT-GRUPO31.Service.Tests\\Model\\ContatoModelTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\FIAP.6NETT-GRUPO31.Service.Tests\\Model\\ContatoModelTests.cs",
-              "RelativeToolTip": "FIAP.6NETT-GRUPO31.Service.Tests\\Model\\ContatoModelTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:46:03.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "DeleteContactControllerTests.cs",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API.Tests\\Controller\\DeleteContactControllerTests.cs",
-              "RelativeDocumentMoniker": "DeleteContact.API.Tests\\Controller\\DeleteContactControllerTests.cs",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.API.Tests\\Controller\\DeleteContactControllerTests.cs",
-              "RelativeToolTip": "DeleteContact.API.Tests\\Controller\\DeleteContactControllerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:45:39.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "DeleteContact.Application.csproj",
-              "DocumentMoniker": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.Application\\DeleteContact.Application.csproj",
-              "RelativeDocumentMoniker": "DeleteContact.Application\\DeleteContact.Application.csproj",
-              "ToolTip": "C:\\Github\\Fase03\\Fiap_TechChallenge_1\\6NETT-GRUPO31\\DeleteContact.Application\\DeleteContact.Application.csproj",
-              "RelativeToolTip": "DeleteContact.Application\\DeleteContact.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-08T13:34:58.15Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-16T12:40:43.331Z"
             }
           ]
         }

@@ -1,12 +1,7 @@
-﻿using FIAP._6NETT_GRUPO31.Application.Interfaces;
-using FIAP._6NETT_GRUPO31.Application.Services;
-using FIAP._6NETT_GRUPO31.Domain.Entities;
-using FIAP._6NETT_GRUPO31.Infra.Data.Context;
-using FIAP._6NETT_GRUPO31.Infra.Data.Repository;
+﻿using FIAP._6NETT_GRUPO31.Infra.Data.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
-using Contact.Core.ServiceBus;
 using Prometheus;
 using MassTransit;
 using FIAP._6NETT_GRUPO31.Application.Consumers;
@@ -52,9 +47,9 @@ namespace FIAP._6NETT_GRUPO31.API.Configuration
                     {
                         h.Username(rabbitMqConfig.UserName);
                         h.Password(rabbitMqConfig.Password);
-                    });                    
+                    });                  
 
-                    cfg.ConfigureEndpoints(context);
+                    cfg.ConfigureEndpoints(context);                 
                 });
             });
 
@@ -63,11 +58,8 @@ namespace FIAP._6NETT_GRUPO31.API.Configuration
 
         public static void UseApiConfiguration(this WebApplication app, IWebHostEnvironment env)
         {
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             app.UseMetricServer();
             app.UseHttpMetrics();

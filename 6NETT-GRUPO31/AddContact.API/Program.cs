@@ -3,6 +3,7 @@ using AddContact.Application.Services;
 using Contact.Core.Dto;
 using Contact.Core.ServiceBus;
 using Contact.WebApi.Core.Util;
+using Prometheus;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,6 +12,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.UseHttpClientMetrics();
 
 builder.Services.AddHttpClient<IAddContactApplication, AddContactApplication>(
     options => options.BaseAddress = new Uri(builder.Configuration.GetValue<string>("UrlGetContact")))
@@ -22,11 +24,11 @@ builder.Services.AddRabitMqConfiguration(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
+
+app.UseMetricServer();
+app.UseHttpMetrics();
 
 app.UseHttpsRedirection();
 

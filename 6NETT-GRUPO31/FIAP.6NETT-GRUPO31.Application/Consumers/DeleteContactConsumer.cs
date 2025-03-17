@@ -15,8 +15,8 @@ namespace FIAP._6NETT_GRUPO31.Application.Consumers
         }
 
         public async Task Consume(ConsumeContext<DeleteContactEvent> context)
-        {
-            await _contatoApplication.DeletarContato(context.Message.Id);
+        {            
+            await _contatoApplication.DeletarContato(context.Message.Id);                      
         }
     }
 }

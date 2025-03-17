@@ -45,6 +45,28 @@ services:
       - "8081:8081"
     networks:
       - mynw 
+
+  update-contact:
+    image: ${DOCKER_REGISTRY-}updatecontactapi
+    depends_on: [sqlserver,rabbitmq]
+    build:
+      context: .
+      dockerfile: UpdateContact.API/Dockerfile
+    ports: 
+      - "8082:8082"
+    networks:
+      - mynw 
+      
+  delete-contact:
+    image: ${DOCKER_REGISTRY-}deletecontactapi
+    depends_on: [sqlserver,rabbitmq]
+    build:
+      context: .
+      dockerfile: DeleteContact.API/Dockerfile
+    ports: 
+      - "8083:8083"
+    networks:
+      - mynw   
  
   prometheus:
     image: prom/prometheus
