@@ -16,8 +16,20 @@ namespace FIAP._6NETT_GRUPO31.Application.Consumers
 
         
         public async Task Consume(ConsumeContext<AddContactEvent> context)
-        {            
-            await _contatoApplication.CadastrarContato(Utils.Utils.MappingContatoEventToContatoDto(context.Message));
+        {
+            try
+            {
+              
+;
+                await _contatoApplication.CadastrarContato(Utils.Utils.MappingContatoEventToContatoDto(context.Message));
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
         }
        
     }

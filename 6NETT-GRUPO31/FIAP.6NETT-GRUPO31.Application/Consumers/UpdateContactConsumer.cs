@@ -15,7 +15,16 @@ namespace FIAP._6NETT_GRUPO31.Application.Consumers
 
         public async Task Consume(ConsumeContext<UpdateContactEvent> context)
         {
-            await contatoApplication.AtualizarContrato(context.Message.Id, Utils.Utils.MappingContatoEventToContatoDto(context.Message));            
+            try
+            {
+                await contatoApplication.AtualizarContrato(context.Message.Id, Utils.Utils.MappingContatoEventToContatoDto(context.Message));
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+           
         }
     }
 }
